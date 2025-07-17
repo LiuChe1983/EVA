@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 // 场景控制器单例
 public class SceneController : MonoBehaviour
 {
+    public SceneEnum StartScene = SceneEnum.StartScene;
+    public SceneEnum CurrentScene = SceneEnum.StartScene;
     // 单例实现
     private static SceneController _instance;
     public static SceneController Instance
@@ -53,9 +55,13 @@ public class SceneController : MonoBehaviour
         sceneStates.Add("PlayScene", new PlaySceneState(this));
 
         // 设置初始场景
-        SetState("StartScene");
+        SetState(StartScene.ToString());
     }
 
+    public void SetState(SceneEnum sceneEnum)
+    {
+        SetState(sceneEnum.ToString());
+    }
     // 设置当前场景状态
     public void SetState(string sceneName)
     {
@@ -100,6 +106,7 @@ public class StartSceneState : SceneState
 
     public override void Enter()
     {
+        SceneController.Instance.CurrentScene = SceneEnum.StartScene;
         controller.LoadScene("StartScene");
         Debug.Log("Entering Start Scene");
         // 注册UI事件监听等初始化操作
@@ -119,6 +126,7 @@ public class PlaySceneState : SceneState
 
     public override void Enter()
     {
+        SceneController.Instance.CurrentScene = SceneEnum.PlayScene;
         controller.LoadScene("PlayScene");
         Debug.Log("Entering Play Scene");
         // 初始化游戏逻辑
@@ -129,4 +137,10 @@ public class PlaySceneState : SceneState
         Debug.Log("Exiting Play Scene");
         // 保存游戏进度等操作
     }
+}
+
+public enum SceneEnum
+{
+    StartScene,
+    PlayScene
 }

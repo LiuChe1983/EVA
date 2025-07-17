@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -24,11 +22,13 @@ public class LoadGamePanel : MonoBehaviour
             int index = i;
             saveSlotButtons[i].onClick.AddListener(() => OnSaveSlotClicked(index));
         }
-
-        interpreter = FindObjectOfType<VisualNovelScriptInterpreter>();
-        if (interpreter == null)
+        if (!IsLoad)
         {
-            Debug.LogWarning("未找到VisualNovelScriptInterpreter实例！");
+            interpreter = FindObjectOfType<VisualNovelScriptInterpreter>();
+            if (interpreter == null)
+            {
+                Debug.LogWarning("未找到VisualNovelScriptInterpreter实例！");
+            }
         }
     }
 
@@ -38,6 +38,11 @@ public class LoadGamePanel : MonoBehaviour
         IsLoad = isLoad;
         gameObject.SetActive(true);
         // 可刷新存档栏位显示内容
+        for(int i = 0; i < saveSlotButtons.Length; i++)
+        {
+            UpdateSaveSlot(i);
+        }
+
     }
 
     public void HidePanel()
@@ -47,21 +52,63 @@ public class LoadGamePanel : MonoBehaviour
 
     void OnSaveSlotClicked(int slotIndex)
     {
-        if (saveSystem == null || interpreter == null)
+        if (saveSystem == null)
         {
-            Debug.LogWarning("SaveSystem或Interpreter未分配或未找到！");
+            Debug.LogWarning("SaveSystem未分配或未找到！");
             return;
         }
 
         if (IsLoad)
         {
-            bool result = saveSystem.LoadGame(slotIndex) != null;
-            Debug.Log(result ? $"读取存档栏位 {slotIndex + 1} 成功" : $"读取存档栏位 {slotIndex + 1} 失败");
+            var data = saveSystem.LoadGame(slotIndex);
+            if (data != null)
+            {
+                // 如果是读档，恢复游戏状态
+                SaveSystem.LoadedSaveData = data;
+                Debug.Log($"读取存档栏位 {slotIndex + 1} 成功");
+                SceneController.Instance.SetState("PlayScene");
+
+            }
+            else
+            {
+                Debug.LogError($"读取存档栏位 {slotIndex + 1} 失败");
+            }
         }
         else
         {
-            saveSystem.SaveGame(interpreter, slotIndex);
-            Debug.Log($"已保存到存档栏位 {slotIndex + 1}");
+            if (saveSystem.SaveGame(slotIndex))
+            {
+                UpdateSaveSlot(slotIndex);
+                Debug.Log($"已保存到存档栏位 {slotIndex + 1}");
+            }
+            else
+            {
+                Debug.LogError($"保存到存档栏位 {slotIndex + 1} 失败");
+            }
+        }
+    }
+
+    public void UpdateSaveSlot(int slotIndex)
+    {
+        if (saveSystem == null)
+        {
+            Debug.LogWarning("SaveSystem未分配或未找到！");
+            return;
+        }
+        SaveData data = saveSystem.LoadGame(slotIndex);
+        if (data != null)
+        {
+            // 更新UI显示存档信息
+            var texts = saveSlotButtons[slotIndex].GetComponentsInChildren<TMP_Text>();
+            if (texts.Length > 0)
+            {
+                texts[0].text = $"存档 {slotIndex + 1}";
+                texts[1].text = data.saveTime;
+            }
+        }
+        else
+        {
+            saveSlotButtons[slotIndex].GetComponentInChildren<TMP_Text>().text = $"存档 {slotIndex + 1} - 空";
         }
     }
 }

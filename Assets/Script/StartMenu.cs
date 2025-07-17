@@ -9,8 +9,8 @@ public class StartMenu : MonoBehaviour
     public Button LoadGameBtn;
     public Button ConfigBtn;
 
-    public GameObject LoadGamePanel;
-    public GameObject ConfigPanel;
+    public LoadGamePanel LoadGamePanel;
+    public ConfigPanel ConfigPanel;
 
     void Start()
     {
@@ -21,18 +21,22 @@ public class StartMenu : MonoBehaviour
 
     void OnStartGame()
     {
+        SaveSystem.LoadedSaveData = new SaveData(); // 初始化当前游戏进度
+        SaveSystem.CurrentGameProgress = new SaveData(); // 设置当前游戏进度为新建的存档数据
         SceneController.Instance.SetState("PlayScene");
     }
 
     void OnLoadGame()
     {
         if (LoadGamePanel != null)
-            LoadGamePanel.SetActive(true);
+        {
+            LoadGamePanel.ShowPanel("读取存档", true);
+        }
     }
 
     void OnConfig()
     {
         if (ConfigPanel != null)
-            ConfigPanel.SetActive(true);
+            ConfigPanel.ShowPanel();
     }
 }

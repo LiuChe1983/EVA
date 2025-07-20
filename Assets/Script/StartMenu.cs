@@ -8,6 +8,7 @@ public class StartMenu : MonoBehaviour
     public Button StartGameBtn;
     public Button LoadGameBtn;
     public Button ConfigBtn;
+    public Button QuitBtn;
 
     public LoadGamePanel LoadGamePanel;
     public ConfigPanel ConfigPanel;
@@ -17,7 +18,12 @@ public class StartMenu : MonoBehaviour
         StartGameBtn.onClick.AddListener(OnStartGame);
         LoadGameBtn.onClick.AddListener(OnLoadGame);
         ConfigBtn.onClick.AddListener(OnConfig);
+        QuitBtn.onClick.AddListener(() =>
+        {
+            Application.Quit();
+        });
     }
+
 
     void OnStartGame()
     {

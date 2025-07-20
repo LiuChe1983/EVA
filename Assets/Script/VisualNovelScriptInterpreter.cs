@@ -15,7 +15,11 @@ public class VisualNovelScriptInterpreter : MonoBehaviour
     public Image char3SpriteImage;
     public Image cgSpriteImage;
 
+    [HideInInspector]
     public bool IsScriptEnd = false;
+
+    [HideInInspector]
+    public bool IsSavePoint = false;
 
     public (string, string)? DialogueLine { get; set; } // 用于存储当前对话行的角色名和内容  
     private int currentLineIndex;
@@ -120,7 +124,7 @@ public class VisualNovelScriptInterpreter : MonoBehaviour
             case "Save":
             case "SAVE":
                 // 标记检查点，自动保存游戏
-                //GameManager.Instance.SaveGame();
+                IsSavePoint = true;
                 break;
             default:
                 Debug.LogWarning("Unknown command: " + command);
@@ -152,8 +156,7 @@ public class VisualNovelScriptInterpreter : MonoBehaviour
                 cgSpriteImage.gameObject.SetActive(false); // 如果参数为空，隐藏
                 return;
             }
-            var spriteFullPath = Consts.CHAR_PATH + parameters[0].Trim();
-            string charPath = parameters[0].Trim();
+            var spriteFullPath = Consts.CG_PATH + parameters[0].Trim();
             UpdateImage(spriteFullPath, cgSpriteImage);
         }
     }
@@ -173,7 +176,7 @@ public class VisualNovelScriptInterpreter : MonoBehaviour
                 return;
             }
             var spriteFullPath = Consts.CHAR_PATH + parameters[0].Trim();
-            string charPath = parameters[0].Trim();
+
             UpdateImage(spriteFullPath, spriteImage);
         }
     }

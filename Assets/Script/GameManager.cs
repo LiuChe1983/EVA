@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI speakContent;
     public GameObject bottomButtons;
     public Button autoButton;
+    public Button skipButton;
     public Button saveButton;
     public Button loadButton;
     public Button configButton;
@@ -21,24 +22,42 @@ public class GameManager : MonoBehaviour
     public LoadGamePanel LoadGamePanel;
     public ConfigPanel ConfigPanel;
     private bool isAutoPlay = false;
+    private bool isSkip = false;
 
     private void Start()
     {
         autoButton.onClick.AddListener(OnAutoButtonClick);
         saveButton.onClick.AddListener(() =>
         {
-            //SaveGame();
+            StopAutoAndSkip();
             LoadGamePanel.ShowPanel("Save Game", false);
         });
 
+        skipButton.onClick.AddListener(() =>
+        {
+            if (!isSkip)
+            {
+                StopAutoAndSkip();
+                //skipButton.GetComponentInChildren<TextMeshProUGUI>().text = "停止跳过";
+                //更换skipbutton的图标
+                skipButton.GetComponent<Image>().sprite = Resources.Load<Sprite>("UI/skip_active");
+                StartSkip();
+            }
+            else
+            {
+                StopCoroutine(SkipToSavePoint());
+                EndSkip();
+            }
+        });
         loadButton.onClick.AddListener(() =>
         {
-            //LoadGame();
+            StopAutoAndSkip();
             LoadGamePanel.ShowPanel("Load Game", true);
         });
 
         configButton.onClick.AddListener(() =>
         {
+            StopAutoAndSkip();
             ConfigPanel.ShowPanel();
         });
         string scriptFilePath = Consts.STORY_PATH + "01";
@@ -56,6 +75,57 @@ public class GameManager : MonoBehaviour
 
     }
 
+    private void StopAutoAndSkip()
+    {
+        if (isSkip)
+        {
+            StopCoroutine(SkipToSavePoint());
+            EndSkip();
+        }
+        if (isAutoPlay)
+        {
+            StopAutoPlay();
+        }
+    }
+
+    private void EndSkip()
+    {
+        isSkip = false;
+        //换回跳过按钮的图标
+        skipButton.GetComponent<Image>().sprite = Resources.Load<Sprite>("UI/skip");
+    }
+
+    private IEnumerator SkipToSavePoint()
+    {
+        while (isSkip)
+        {
+            if (scriptInterpreter.IsSavePoint)
+            {
+                Debug.Log("SavePoint:EndSkip");
+                EndSkip();
+            }
+            else if (scriptInterpreter.IsScriptEnd)
+            {
+                Debug.Log("ScriptEnd:EndSkip");
+                EndSkip();
+                yield break;
+            }
+            else
+            {
+                scriptInterpreter.InterpretNextLine();
+            }
+            yield return new WaitForSeconds(Consts.DEFAULT_SKIP_WAITING_SECONDS);
+        }
+    }
+
+    private void StartSkip()
+    {
+        Debug.Log("StartSkip");
+        isSkip = true;
+        // typewriterEffect.typingSpeed = Consts.SKIP_MODE_TYPING_SPEED;
+        StartCoroutine(SkipToSavePoint());
+    }
+
     void Update()
     {
         // 处理输入和游戏逻辑
@@ -67,6 +137,7 @@ public class GameManager : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Space) || IsMouseHitting())
         {
+            scriptInterpreter.IsSavePoint = false; // 点击或空格键时，重置存档点状态
             scriptInterpreter.InterpretNextLine();
         }
         
@@ -82,17 +153,44 @@ public class GameManager : MonoBehaviour
 
     void OnAutoButtonClick()
     {
+        if (isSkip)
+        {
+            // 如果正在跳过，先结束跳过
+            StopCoroutine(SkipToSavePoint());
+            EndSkip();
+        }
         isAutoPlay = !isAutoPlay;
 
         //autoButton.GetComponentInChildren<TextMeshProUGUI>().text = isAutoPlay ? "停止自动" : "自动播放";
 
-        if (isAutoPlay) StartCoroutine(StartAutoPlay());
+        if (isAutoPlay)
+        {
+            // 更换autoButton的图标
+            autoButton.GetComponent<Image>().sprite = Resources.Load<Sprite>("UI/auto_active");
+            StartCoroutine(StartAutoPlay());
+        }
+        else
+        {
+            StopAutoPlay();
+        }
     }
 
     private IEnumerator StartAutoPlay()
     {
         while (isAutoPlay)
         {
+            if (scriptInterpreter.IsSavePoint)
+            {
+                // 如果遇到存档点，停止自动播放
+                StopAutoPlay();
+                yield break;
+            }
+            if (scriptInterpreter.IsScriptEnd)
+            {
+                // 如果脚本已经结束，停止自动播放
+                StopAutoPlay();
+                yield break;
+            }
             if (!typewriterEffect.IsTyping)
             {
                 scriptInterpreter.InterpretNextLine();
@@ -101,11 +199,29 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    void StopAutoPlay()
+    {
+        if (isAutoPlay)
+        {
+            StopCoroutine(StartAutoPlay());
+            isAutoPlay = false;
+            // 更换autoButton的图标
+            autoButton.GetComponent<Image>().sprite = Resources.Load<Sprite>("UI/auto");
+        }
+    }
+
     void DisplayDialogueLine(string content)
     {
-
-        // 显示对话内容
-        typewriterEffect.StartTyping(content, Consts.DEFAULT_TYPING_SPEED);
+        if (isSkip)
+        {
+            // 如果正在跳过，直接显示完整内容
+            typewriterEffect.CompleteLine(content);
+        }
+        else
+        {
+            // 使用打字机效果 显示对话内容
+            typewriterEffect.StartTyping(content, Consts.DEFAULT_TYPING_SPEED);
+        }
         
     }
 
@@ -120,28 +236,11 @@ public class GameManager : MonoBehaviour
             // 如果读档面板正在显示，忽略鼠标点击
             return false;
         }
+        if(ConfigPanel.gameObject.activeSelf)
+        {
+            // 如果配置面板正在显示，忽略鼠标点击
+            return false;
+        }
         return true;
     }
-    //public void SaveGame()
-    //{
-    //    saveSystem.SaveGame(scriptInterpreter);
-    //}
-
-    //public void LoadGame()
-    //{
-    //    // 重新加载存档
-    //    saveSystem.LoadGame();
-
-    //    if (SaveSystem.LoadedSaveData != null)
-    //    {
-    //        scriptInterpreter.RestoreState(SaveSystem.LoadedSaveData);
-    //        Debug.Log("游戏已从存档加载");
-    //    }
-    //    else
-    //    {
-    //        Debug.Log("没有找到存档，开始新游戏");
-    //        scriptInterpreter.Initialize(scriptFilePath);
-    //        scriptInterpreter.InterpretNextLine();
-    //    }
-    //}
 }

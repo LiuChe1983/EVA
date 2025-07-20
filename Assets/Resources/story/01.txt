@@ -1,13 +1,15 @@
 #《池袋挽歌：月之淚與街角之花》遊戲腳本
 #版本：5.0 (格式修訂版)
 #序章：凋零
-@bg:bg_musicroom_sunset
+@bg:bg_penthouse_dawn
 @bgm:bgm_memories_piano,true
 @char1:
 @char2:
 @char3:
+@cg:cg_ending_a_happylife
 [旁白]媽媽曾說，我的手指是為了彈奏貝斯而生的。在月之森，聚光燈下的每一次撥弦，都曾是我世界的全部。
 (畫面閃爍)
+@cg:
 [旁白]但世界……是如此輕易就會崩塌的東西。當「長崎」這個姓氏失去所有光環，當練習室的鑰匙被收回，我才明白，我失去的，不僅僅是音樂。
 @bg:bg_apartment_night
 @bgm:bgm_sad_quiet_piano,true
@@ -21,6 +23,7 @@
 @char1:char_soyo_casual_default
 [長崎素世]我知道的，若麥。你的話術，我的……儀態。利用我們僅剩的東西，在這片泥沼裡活下去。
 [旁白]（內心獨白 - 祐天寺若麥）沒錯……我可是前百萬人氣主播祐天寺若麥啊！那些惡意的官司和債務……絕對……絕對不能在這裡認輸！等我賺夠了錢，一定要讓那些陷害我的人付出代價！
+@save
 [祐天寺若麦]好了，時間差不多了。該去‘上班’了，我的好搭檔。
 第一章：街角的窺視
 @bg:bg_ikebukuro_alley_night

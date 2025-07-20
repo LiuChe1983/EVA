@@ -41,9 +41,9 @@ public class TypewriterEffect : MonoBehaviour
 
     }
 
-    public void CompleteLine()
+    public void CompleteLine(string text)
     {
-        if (typingCoroutine != null) StopCoroutine(typingCoroutine);
+        textDisplay.text = text;
         textDisplay.maxVisibleCharacters = textDisplay.text.Length;
         isTyping = false;
     }

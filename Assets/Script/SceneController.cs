@@ -42,7 +42,28 @@ public class SceneController : MonoBehaviour
         }
 
         _instance = this;
-        DontDestroyOnLoad(gameObject); // 确保场景切换时不被销毁
+        DontDestroyOnLoad(gameObject);
+
+        // 初始化窗口设置
+        int winMode = PlayerPrefs.GetInt("WinMode", 0);
+        bool isFullScreen = winMode == 1;
+        Screen.fullScreen = isFullScreen;
+
+        int savedWidth = PlayerPrefs.GetInt("ResolutionWidth", Screen.currentResolution.width);
+        Resolution[] resolutions = Screen.resolutions;
+        Resolution selectedResolution = resolutions[0];
+        foreach (var res in resolutions)
+        {
+            // 只保留16:9且宽度>=1920的分辨率
+            if (Mathf.Abs((float)res.width / res.height - 16f / 9f) > 0.01f || res.width < 1920)
+                continue;
+            if (res.width == savedWidth)
+            {
+                selectedResolution = res;
+                break;
+            }
+        }
+        Screen.SetResolution(selectedResolution.width, selectedResolution.height, isFullScreen);
 
         // 初始化场景状态
         InitializeSceneStates();

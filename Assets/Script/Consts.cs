@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class Consts
 {
+    //DEV版本使用的Story路径
+    public static string DEV_STORY_PATH = "storyDev/01.txt";
+
     public static string STORY_PATH = "story/";
+
+
     public static string BACKGROUND_PATH = "image/bg/";
     public static string CG_PATH = "image/cg/";
 
@@ -20,7 +25,7 @@ public class Consts
 
     
     public static float DEFAULT_SKIP_WAITING_SECONDS = 0.1f;
-    public static float DEFAULT_AUTO_WAITING_SECONDS = 0.01f;
+    public static float DEFAULT_AUTO_WAITING_SECONDS = 2f;
 
 
 

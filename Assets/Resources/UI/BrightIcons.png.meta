@@ -1,0 +1,1896 @@
+fileFormatVersion: 2
+guid: 8dc9b75715862b34890da386e597664f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BrightIcons_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 859
+        width: 55
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cdde7520fe2ed643990c2db1b39b39c
+      internalID: 709729374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_1
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 860
+        width: 55
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b919cf6f2ac4ff748a50ba306eb446b7
+      internalID: -532902309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_2
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 882
+        width: 99
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62b450c4b18ebb4eb4cd9fbf31d81a5
+      internalID: -492604114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_3
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 881
+        width: 99
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7874f3c82c21d9409292aa87e4f2340
+      internalID: -1793163100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_4
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 878
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c520644b54cffc34fb1935f4ccbb4db6
+      internalID: -1654338258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_5
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 871
+        width: 76
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e64539becbd2c44895152cfb7eddaa5
+      internalID: 1325391865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_6
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 871
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ca80a7b8e3e8f47bcb6dc6fb7d5792
+      internalID: 1476648633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_7
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 874
+        width: 79
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013c09f381e87e847bafde2d5c71ee5b
+      internalID: 1837300822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_8
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 872
+        width: 82
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba58cbddad8fdb4cb14ae2a2acd8ba4
+      internalID: -1721185919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_9
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 724
+        width: 68
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d9224f109980244b83d54a3b86a22e
+      internalID: 1802780362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_10
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 724
+        width: 68
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d74065eaccaeaf4c91c11a1fd372d42
+      internalID: -1932413443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_11
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 722
+        width: 75
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868ce4aba2dd85f42b19e4fa93f5aef9
+      internalID: -1533890927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_12
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 722
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b669b88b54df961449426a96b33caf7a
+      internalID: -1787556987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_13
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 751
+        width: 8
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b320ddb15ce5c45b605679d774def7
+      internalID: 1345683834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_14
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 721
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5c19df100d94c4baaa25d6a93777a1
+      internalID: -1342063271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_15
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 719
+        width: 17
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e54345a917700143ab929479ab57525
+      internalID: -1012116430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_16
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 719
+        width: 18
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13c7a3ffba42ec42903a1e0c1851ab6
+      internalID: -1216865539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_17
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 727
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a672c1a416d28324e8efcfc3d0c50b16
+      internalID: 87798680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_18
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 727
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b816296257867b46b95a80e69f1fe9b
+      internalID: 893703239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_19
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 775
+        width: 59
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac66869eb6e38a40882b447c734af63
+      internalID: -185131304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_20
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 724
+        width: 60
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108757dcff7cbf2449c3bda976957449
+      internalID: -367555935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_21
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 758
+        width: 8
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8817813ba21824da4475715d2b2ae5
+      internalID: 672030806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_22
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 751
+        width: 43
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a988d14e94003874a90af5fea3a1b653
+      internalID: 2022759867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_23
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 727
+        width: 59
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2e0190eda5a6641a7f210a31fc400a
+      internalID: 2063227205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_24
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 560
+        width: 62
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf978ed80ee8fc4b9fc90e7cd072e06
+      internalID: -1299149102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_25
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 562
+        width: 62
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fc23fd550354e40977fc4993bd372c
+      internalID: 714657827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_26
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 561
+        width: 76
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ad77fa6a52db745ba9966ed5c7a85d
+      internalID: -1792815055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_27
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 561
+        width: 76
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a6e41413ebe65438efb3352e1df5ce
+      internalID: -870247575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_28
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 564
+        width: 80
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed56c5370cdd7c4599a7d5fc6bb8a2c
+      internalID: -1870934553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_29
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 565
+        width: 54
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4d1a67f3adbb54f9fb19201c3d7aa4
+      internalID: 1697238931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_30
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 609
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9651c900cb9ec6d42be38251c97ec65f
+      internalID: 1265452583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_31
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 624
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066edc7cc6127d648afb24928da54eed
+      internalID: -97013508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_32
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 632
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06040593c46d994996ab6ae0bae5a50
+      internalID: 1652342833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_33
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 631
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994b88c7d1cd26d4db0ce92cdd2c1161
+      internalID: -191861668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_34
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 622
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5677d291dc3fe45a1969a2b98744f9
+      internalID: 56437773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_35
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 564
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c06c8f1c4320ad429a38d9f72aed901
+      internalID: -1013995543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_36
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 577
+        width: 61
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7739881a4788c22459791d4c5fa5ba01
+      internalID: 684596059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_37
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 611
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f741b81fea80114fbc16ea416f75fb0
+      internalID: -659327794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_38
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 609
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1d65d96a3b58f4c9c462faffca6807
+      internalID: 2014701220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_39
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 563
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a4fc6d8afe3014bb99194ebd45b957
+      internalID: 737572422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_40
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 595
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc74d83c93758234583e30c5f725e056
+      internalID: 1014765044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_41
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 570
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b361c15b47f634ab127eaede6f0df5
+      internalID: -845688735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_42
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 597
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b398302a74411c54fa3bafbd0bfd5088
+      internalID: -100728261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_43
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 584
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff02ca3ceb9c834fb68bde31514b7e7
+      internalID: 1870565331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_44
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 423
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3deec4780f11c7f4483cab197d54bf25
+      internalID: -742579516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_45
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 423
+        width: 43
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4f196e4c8f3664393208a6b586009b
+      internalID: -1240059105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_46
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 423
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0c515a69529c94e8b520aa640ef690
+      internalID: 1927102366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_47
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 421
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c951c3706ebd52543a348231fb8de9df
+      internalID: 755484306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_48
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 410
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3019174bb934d4ab3e9bed0c223a19
+      internalID: 232615120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_49
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 409
+        width: 70
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653b0c0930ec8834b9475e39e4dada45
+      internalID: 207838324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_50
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 409
+        width: 70
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a58b17f8d0969a4c98877455d698a50
+      internalID: -1187515152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_51
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 409
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7594ea00d2284f04c9c481ec9cbec992
+      internalID: -1014149725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_52
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 412
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f9cfede7399144f85b8af6ef459a92
+      internalID: -265121604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_53
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 404
+        width: 54
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d309a939471ce4b85f3d217b4af4ae
+      internalID: 1872546628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_54
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 417
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9f5e3838ceb624f999bf003536da0c
+      internalID: -1245146285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_55
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 417
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a18248749fd70245b87bf367103f40a
+      internalID: 1212086607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_56
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 411
+        width: 44
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6796dd9f23b10b24891d9551ffec4fc8
+      internalID: 1462150667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_57
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 428
+        width: 51
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f902637ce3e523c48829eecedac38cde
+      internalID: -1380080160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_58
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 401
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbacc4a4496a8ce4797f26f6b274e6f7
+      internalID: -827094712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_59
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 382
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832ad9437a89ef44bb90485a7a7a864f
+      internalID: 648050447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_60
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 400
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd705ad668b5aa4186bc7b7a207003f
+      internalID: 1918936525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_61
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 228
+        width: 72
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f533ff1f7b8c0dc4abacb2f77f67664b
+      internalID: 1544508065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_62
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 241
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a43af72f79c384439b3784d942d8fd3
+      internalID: -2008830327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_63
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 253
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29ef47142316094ea37d503a1a6910b
+      internalID: -1262977749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_64
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 229
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a965011a61c5846a78d84ed673a149
+      internalID: -1293078746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_65
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 229
+        width: 78
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922f37fda8446cc40a22ee80eb8fcc69
+      internalID: 499674153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_66
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 239
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232e8f67746a9054ea6d20babe8d1b4a
+      internalID: -90610960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_67
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 238
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc849ca72208a94d91251d8b0294a8c
+      internalID: -664345679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 240
+        width: 79
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c836018f9dbbc4c4bb969bfaf7d1eba1
+      internalID: 1658856333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_69
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 246
+        width: 79
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e01bb7370554a4493bd09c86e210b8
+      internalID: 428268394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_70
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 242
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665825f3d2ab7a547a01f5bf7c97298b
+      internalID: -1952790329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_71
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 146
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96099ebfa058e06408e53f622354a3fe
+      internalID: -945637499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_72
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 129
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910a6bc56b1b72644b3fe88bd68557d8
+      internalID: 1120996970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_73
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 83
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016746dcbe125064da6afbc376ebfa76
+      internalID: 1934293965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_74
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 103
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5484554b25e82349b9dae9edfecef76
+      internalID: -1522196089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_75
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 76
+        width: 59
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d379f32ea56fc8347b3a2d9fabaa6d66
+      internalID: 122779178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_76
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 86
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17addd4332478ef40b5c6059eefbeb14
+      internalID: 1850939984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_77
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 86
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7121ace33f7a77439b994013b7ffd72
+      internalID: -332456848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_78
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 87
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3311576e99371284cad3ec3c944123c8
+      internalID: -1101050725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_79
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 87
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb58286bfddc2644a94e4c86296ad57
+      internalID: -473757134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightIcons_80
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 73
+        width: 52
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90f8aae67625e741bccd51f22963268
+      internalID: -906859018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Arrow: 1658856333
+      BrightIcons_0: 709729374
+      BrightIcons_1: -532902309
+      BrightIcons_10: -1932413443
+      BrightIcons_11: -1533890927
+      BrightIcons_12: -1787556987
+      BrightIcons_13: 1345683834
+      BrightIcons_14: -1342063271
+      BrightIcons_15: -1012116430
+      BrightIcons_16: -1216865539
+      BrightIcons_17: 87798680
+      BrightIcons_18: 893703239
+      BrightIcons_19: -185131304
+      BrightIcons_2: -492604114
+      BrightIcons_20: -367555935
+      BrightIcons_21: 672030806
+      BrightIcons_22: 2022759867
+      BrightIcons_23: 2063227205
+      BrightIcons_24: -1299149102
+      BrightIcons_25: 714657827
+      BrightIcons_26: -1792815055
+      BrightIcons_27: -870247575
+      BrightIcons_28: -1870934553
+      BrightIcons_29: 1697238931
+      BrightIcons_3: -1793163100
+      BrightIcons_30: 1265452583
+      BrightIcons_31: -97013508
+      BrightIcons_32: 1652342833
+      BrightIcons_33: -191861668
+      BrightIcons_34: 56437773
+      BrightIcons_35: -1013995543
+      BrightIcons_36: 684596059
+      BrightIcons_37: -659327794
+      BrightIcons_38: 2014701220
+      BrightIcons_39: 737572422
+      BrightIcons_4: -1654338258
+      BrightIcons_40: 1014765044
+      BrightIcons_41: -845688735
+      BrightIcons_42: -100728261
+      BrightIcons_43: 1870565331
+      BrightIcons_44: -742579516
+      BrightIcons_45: -1240059105
+      BrightIcons_46: 1927102366
+      BrightIcons_47: 755484306
+      BrightIcons_48: 232615120
+      BrightIcons_49: 207838324
+      BrightIcons_5: 1325391865
+      BrightIcons_50: -1187515152
+      BrightIcons_51: -1014149725
+      BrightIcons_52: -265121604
+      BrightIcons_53: 1872546628
+      BrightIcons_54: -1245146285
+      BrightIcons_55: 1212086607
+      BrightIcons_56: 1462150667
+      BrightIcons_57: -1380080160
+      BrightIcons_58: -827094712
+      BrightIcons_59: 648050447
+      BrightIcons_6: 1476648633
+      BrightIcons_60: 1918936525
+      BrightIcons_61: 1544508065
+      BrightIcons_62: -2008830327
+      BrightIcons_63: -1262977749
+      BrightIcons_64: -1293078746
+      BrightIcons_65: 499674153
+      BrightIcons_66: -90610960
+      BrightIcons_67: -664345679
+      BrightIcons_69: 428268394
+      BrightIcons_7: 1837300822
+      BrightIcons_70: -1952790329
+      BrightIcons_71: -945637499
+      BrightIcons_72: 1120996970
+      BrightIcons_73: 1934293965
+      BrightIcons_74: -1522196089
+      BrightIcons_75: 122779178
+      BrightIcons_76: 1850939984
+      BrightIcons_77: -332456848
+      BrightIcons_78: -1101050725
+      BrightIcons_79: -473757134
+      BrightIcons_8: -1721185919
+      BrightIcons_80: -906859018
+      BrightIcons_9: 1802780362
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

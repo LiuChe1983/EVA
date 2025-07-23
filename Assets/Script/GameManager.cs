@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
 {
     public TextMeshProUGUI speakerName;
     public TextMeshProUGUI speakContent;
+    public Image arrow;
     public GameObject bottomButtons;
     public Button autoButton;
     public Button skipButton;
@@ -24,6 +25,31 @@ public class GameManager : MonoBehaviour
     private bool isAutoPlay = false;
     private bool isSkip = false;
 
+    void Update()
+    {
+        // 处理输入和游戏逻辑
+        if (scriptInterpreter.IsScriptEnd)
+        {
+            // 如果脚本已经结束，显示结束界面或其他逻辑
+            SceneController.Instance.LoadScene("StartScene");
+            return;
+        }
+        if (Input.GetKeyDown(KeyCode.Space) || IsMouseHitting())
+        {
+            arrow.gameObject.SetActive(false);
+            scriptInterpreter.IsSavePoint = false; // 点击或空格键时，重置存档点状态
+            scriptInterpreter.InterpretNextLine();
+        }
+
+        if (scriptInterpreter.DialogueLine != null)
+        {
+            var dialogue = scriptInterpreter.DialogueLine.Value;
+            scriptInterpreter.DialogueLine = null; // 清除当前对话行，避免重复处理
+            speakerName.text = dialogue.Item1;
+            DisplayDialogueLine(dialogue.Item2);
+        }
+
+    }
     private void Start()
     {
         autoButton.onClick.AddListener(OnAutoButtonClick);
@@ -60,8 +86,17 @@ public class GameManager : MonoBehaviour
             StopAutoAndSkip();
             ConfigPanel.ShowPanel();
         });
+
+        //DEV标识符下使用InitializeDev方法
+#if DEV
+        Debug.Log("DEV mode is enabled. Initializing with full story path.");
+        scriptInterpreter.InitializeDev(Consts.DEV_STORY_PATH);
+#else
         string scriptFilePath = Consts.STORY_PATH + "01";
         scriptInterpreter.Initialize(scriptFilePath);
+#endif
+
+
         // 通过静态字段判断是否有存档数据
         if (SaveSystem.LoadedSaveData != null)
         {
@@ -126,30 +161,7 @@ public class GameManager : MonoBehaviour
         StartCoroutine(SkipToSavePoint());
     }
 
-    void Update()
-    {
-        // 处理输入和游戏逻辑
-        if(scriptInterpreter.IsScriptEnd)
-        {
-            // 如果脚本已经结束，显示结束界面或其他逻辑
-           SceneController.Instance.LoadScene("StartScene");
-            return;
-        }
-        if (Input.GetKeyDown(KeyCode.Space) || IsMouseHitting())
-        {
-            scriptInterpreter.IsSavePoint = false; // 点击或空格键时，重置存档点状态
-            scriptInterpreter.InterpretNextLine();
-        }
-        
-        if (scriptInterpreter.DialogueLine != null)
-        {
-            var dialogue = scriptInterpreter.DialogueLine.Value;
-            scriptInterpreter.DialogueLine = null; // 清除当前对话行，避免重复处理
-            speakerName.text = dialogue.Item1;
-            DisplayDialogueLine(dialogue.Item2);
-        }
 
-    }
 
     void OnAutoButtonClick()
     {
@@ -159,19 +171,20 @@ public class GameManager : MonoBehaviour
             StopCoroutine(SkipToSavePoint());
             EndSkip();
         }
-        isAutoPlay = !isAutoPlay;
+       // isAutoPlay = !isAutoPlay;
 
         //autoButton.GetComponentInChildren<TextMeshProUGUI>().text = isAutoPlay ? "停止自动" : "自动播放";
 
         if (isAutoPlay)
         {
-            // 更换autoButton的图标
-            autoButton.GetComponent<Image>().sprite = Resources.Load<Sprite>("UI/auto_active");
-            StartCoroutine(StartAutoPlay());
+            StopAutoPlay();
         }
         else
         {
-            StopAutoPlay();
+            isAutoPlay = true;
+            // 更换autoButton的图标
+            autoButton.GetComponent<Image>().sprite = Resources.Load<Sprite>("UI/auto_active");
+            StartCoroutine(StartAutoPlay());
         }
     }
 
@@ -219,6 +232,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
+            arrow.gameObject.SetActive(true);
             // 使用打字机效果 显示对话内容
             typewriterEffect.StartTyping(content, Consts.DEFAULT_TYPING_SPEED);
         }

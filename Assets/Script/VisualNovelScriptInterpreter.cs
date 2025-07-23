@@ -45,6 +45,21 @@ public class VisualNovelScriptInterpreter : MonoBehaviour
         }
     }
 
+    //直接读取txt文件的InitializeDev方法
+    public void InitializeDev(string filePath)
+    {
+        string fullPath = Path.Combine(Application.streamingAssetsPath, filePath);
+        if (File.Exists(filePath))
+        {
+            scriptLines = File.ReadAllLines(filePath);
+            currentLineIndex = 0;
+        }
+        else
+        {
+            Debug.LogError("Script file not found: " + filePath);
+        }
+    }
+
 
     public void InterpretNextLine()
     {

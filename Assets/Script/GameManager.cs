@@ -34,11 +34,57 @@ public class GameManager : MonoBehaviour
             SceneController.Instance.LoadScene("StartScene");
             return;
         }
-        if (Input.GetKeyDown(KeyCode.Space) || IsMouseHitting())
+        // 如果正在自动播放或跳过，且没有面板激活，则继续处理输入
+        if (!IsPanelActive() &&( Input.GetKeyDown(KeyCode.Space) || IsMouseHitting()))
         {
-            arrow.gameObject.SetActive(false);
-            scriptInterpreter.IsSavePoint = false; // 点击或空格键时，重置存档点状态
-            scriptInterpreter.InterpretNextLine();
+            // 如果是自动播放或跳过状态，停止它们
+            if (isAutoPlay)
+            {
+                StopAutoPlay();
+            }
+            if (isSkip)
+            {
+                StopCoroutine(SkipToSavePoint());
+                EndSkip();
+            }
+            if (typewriterEffect.IsTyping)
+            {
+                // 如果正在打字，直接完成当前行
+                typewriterEffect.CompleteLine(speakContent.text);
+            }
+            else
+            {
+                // 如果不是自动播放或跳过状态，直接解释下一行
+                arrow.gameObject.SetActive(false);
+                scriptInterpreter.IsSavePoint = false; // 点击或空格键时，重置存档点状态
+                scriptInterpreter.InterpretNextLine();
+            }
+            // 如果是自动播放或跳过状态，停止它们
+
+
+            //if (typewriterEffect.IsTyping) {
+            //    // 如果正在打字，直接完成当前行
+            //    typewriterEffect.CompleteLine(speakContent.text);
+            //}
+            //else if (isAutoPlay)
+            //{
+            //    // 如果是自动播放状态，停止自动播放
+            //    StopAutoPlay();
+            //}
+            //else if (isSkip)
+            //{
+            //    // 如果是跳过状态，结束跳过
+            //    StopCoroutine(SkipToSavePoint());
+            //    EndSkip();
+            //}
+            //else
+            //{
+            //    // 如果不是自动播放或跳过状态，直接解释下一行
+            //    arrow.gameObject.SetActive(false);
+            //    scriptInterpreter.IsSavePoint = false; // 点击或空格键时，重置存档点状态
+            //    scriptInterpreter.InterpretNextLine();
+            //}
+
         }
 
         if (scriptInterpreter.DialogueLine != null)
@@ -239,22 +285,17 @@ public class GameManager : MonoBehaviour
         
     }
 
+    bool IsPanelActive()
+    {
+        // 检查是否有面板正在显示
+        return LoadGamePanel.gameObject.activeSelf || ConfigPanel.gameObject.activeSelf;
+    }
     bool IsMouseHitting()
     {
         if(!Input.GetMouseButtonDown(0)) return false;
         if (RectTransformUtility.RectangleContainsScreenPoint(
             bottomButtons.GetComponent<RectTransform>(), Input.mousePosition, Camera.main))
         { return false; }
-        if(LoadGamePanel.gameObject.activeSelf)
-        {
-            // 如果读档面板正在显示，忽略鼠标点击
-            return false;
-        }
-        if(ConfigPanel.gameObject.activeSelf)
-        {
-            // 如果配置面板正在显示，忽略鼠标点击
-            return false;
-        }
         return true;
     }
 }

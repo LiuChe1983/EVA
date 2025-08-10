@@ -34,7 +34,7 @@ public class VisualNovelScriptInterpreter : MonoBehaviour
     public void Initialize(string filePath)
     {
         var textAsset = Resources.Load<TextAsset>(filePath);
-        if(textAsset != null)
+        if (textAsset != null)
         {
             scriptLines = textAsset.text.Split(new[] { '\n', '\r' }, System.StringSplitOptions.RemoveEmptyEntries);
             currentLineIndex = 0;
@@ -48,16 +48,8 @@ public class VisualNovelScriptInterpreter : MonoBehaviour
     //直接读取txt文件的InitializeDev方法
     public void InitializeDev(string filePath)
     {
-        string fullPath = Path.Combine(Application.streamingAssetsPath, filePath);
-        if (File.Exists(filePath))
-        {
-            scriptLines = File.ReadAllLines(filePath);
-            currentLineIndex = 0;
-        }
-        else
-        {
-            Debug.LogError("Script file not found: " + filePath);
-        }
+        scriptLines = File.ReadAllLines(filePath);
+        currentLineIndex = 0;
     }
 
 
@@ -178,14 +170,14 @@ public class VisualNovelScriptInterpreter : MonoBehaviour
 
     private void HandleCharacterSpriteChange(Image spriteImage, string[] parameters)
     {
-        if(parameters.Length == 0)
+        if (parameters.Length == 0)
         {
             spriteImage.gameObject.SetActive(false); // 如果没有参数，隐藏角色立绘
             return;
         }
         if (parameters.Length > 0)
         {
-            if(string.IsNullOrEmpty(parameters[0])) 
+            if (string.IsNullOrEmpty(parameters[0]))
             {
                 spriteImage.gameObject.SetActive(false); // 如果参数为空，隐藏角色立绘
                 return;
@@ -252,7 +244,7 @@ public class VisualNovelScriptInterpreter : MonoBehaviour
     }
     void UpdateImage(string imagePath, Image img)
     {
-        Sprite sprite = Resources.Load<Sprite>(imagePath);
+        Sprite sprite = LoadSprite(imagePath);
         if (sprite != null)
         {
             img.sprite = sprite;
@@ -260,7 +252,7 @@ public class VisualNovelScriptInterpreter : MonoBehaviour
         }
         else
         {
-            Debug.LogError("IMAGE_LOAD_FAILED: " + imagePath);
+            Debug.LogError("IMAGE_LOAD_FAILED: " + imagePath);  
         }
     }
 
@@ -291,5 +283,73 @@ public class VisualNovelScriptInterpreter : MonoBehaviour
         currentLineIndex = data.currentLineIndex;
     }
 
+    public Sprite LoadSprite(string imagePath)
+    {
+#if DEV
+        // 先尝试本地路径加载
+        // 自动补全 .png 扩展名
+        string pngRelativePath = imagePath;
+        if (!imagePath.EndsWith(".png", System.StringComparison.OrdinalIgnoreCase))
+            pngRelativePath += ".png";
 
+        Sprite s = LoadSpriteFromRelativePath(pngRelativePath);
+        if(s != null)
+        {
+            return s;
+        }
+        // 如果本地加载失败，尝试使用.jpeg后缀加载
+        string jpegRelativePath = imagePath;
+        if (!imagePath.EndsWith(".jpeg", System.StringComparison.OrdinalIgnoreCase))
+            jpegRelativePath += ".jpeg";
+        s = LoadSpriteFromRelativePath(jpegRelativePath);
+        if (s != null)
+        {
+            return s;
+        }
+
+        // 如果加载失败，读取资源image/404
+        Debug.LogWarning($"图片加载失败: {imagePath}，尝试加载默认404图片");
+        return Resources.Load<Sprite>("image/404");
+
+#else
+        // imagePath 不带扩展名，直接用于 Resources.Load
+        return Resources.Load<Sprite>(imagePath);
+#endif
+    }
+
+
+    public Sprite LoadSpriteFromRelativePath(string relativePath, int pixelsPerUnit = 100)
+    {
+
+
+        // 获取执行文件所在目录
+        string executableDir = Path.GetDirectoryName(Application.dataPath);
+        // 构建相对于执行文件的完整图片路径
+        string fullPath = Path.Combine(executableDir, "dev/" + relativePath);
+
+        if (!File.Exists(fullPath))
+        {
+            Debug.LogWarning($"图片文件不存在: {fullPath}");
+            return null;
+        }
+
+        try
+        {
+            byte[] imageBytes = File.ReadAllBytes(fullPath);
+            Texture2D texture = new Texture2D(2, 2);
+            if (!texture.LoadImage(imageBytes))
+            {
+                Debug.LogError("无法加载图片数据到Texture2D: " + fullPath);
+                return null;
+            }
+
+            // 创建Sprite
+            return Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), new Vector2(0.5f, 0.5f), pixelsPerUnit);
+        }
+        catch (IOException e)
+        {
+            Debug.LogError($"读取图片时发生错误: {e.Message}");
+            return null;
+        }
+    }
 }

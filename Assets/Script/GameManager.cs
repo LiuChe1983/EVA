@@ -135,8 +135,17 @@ public class GameManager : MonoBehaviour
 
         //DEV标识符下使用InitializeDev方法
 #if DEV
-        Debug.Log("DEV mode is enabled. Initializing with full story path.");
-        scriptInterpreter.InitializeDev(Consts.DEV_STORY_PATH);
+        // 使用DEV版本的脚本路径 如果文件不存在使用Initialize方式
+        string executableDir = Path.GetDirectoryName(Application.dataPath);
+        // 构建相对于执行文件的完整图片路径
+        string fullPath = Path.Combine(executableDir, "dev/" + Consts.STORY_PATH+"01.txt");
+        if (!File.Exists(fullPath))
+        {
+            Debug.LogError("DEV版本脚本文件不存在，使用默认脚本路径");
+            scriptInterpreter.Initialize(Consts.STORY_PATH + "01");
+        }
+        else
+            scriptInterpreter.InitializeDev(fullPath);
 #else
         string scriptFilePath = Consts.STORY_PATH + "01";
         scriptInterpreter.Initialize(scriptFilePath);

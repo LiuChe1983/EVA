@@ -4,9 +4,6 @@ using UnityEngine;
 
 public class Consts
 {
-    //DEV版本使用的Story路径
-    public static string DEV_STORY_PATH = "storyDev/01.txt";
-
     public static string STORY_PATH = "story/";
 
 

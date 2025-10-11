@@ -195,7 +195,7 @@ public class VisualNovelScriptInterpreter : MonoBehaviour
             string bgmPath = parameters[0].Trim();
             bool isLooping = parameters.Length > 1 && parameters[1].Trim().ToLower() == "true";
             var bgmFullPath = Consts.MUSIC_PATH + bgmPath;
-            AudioClip bgmClip = Resources.Load<AudioClip>(bgmFullPath);
+            AudioClip bgmClip = LoadAudioClip(bgmFullPath);
             if (bgmClip != null)
             {
                 bgmAudioSource.clip = bgmClip;
@@ -214,7 +214,8 @@ public class VisualNovelScriptInterpreter : MonoBehaviour
         if (parameters.Length > 0)
         {
             string sfxPath = parameters[0].Trim();
-            AudioClip sfxClip = Resources.Load<AudioClip>(sfxPath);
+            var bgmSfxPath = Consts.SFX_PATH + sfxPath;
+            AudioClip sfxClip = LoadAudioClip(sfxPath);
             if (sfxClip != null)
             {
                 sfxAudioSource.clip = sfxClip;
@@ -226,6 +227,41 @@ public class VisualNovelScriptInterpreter : MonoBehaviour
             }
         }
     }
+
+    public Sprite LoadSprite(string imagePath)
+    {
+#if DEV
+    // 优先本地加载
+    Sprite s = LocalResourceLoader.LoadSprite(imagePath);
+    if (s != null)
+        return s;
+    // 本地加载失败，读取资源image/404
+    Debug.LogWarning($"图片加载失败: {imagePath}，尝试加载默认404图片");
+    return Resources.Load<Sprite>("image/404");
+#else
+    // imagePath 不带扩展名，直接用于 Resources.Load
+    return Resources.Load<Sprite>(imagePath);
+#endif
+}
+
+    private AudioClip LoadAudioClip(string audioPath)
+    {
+#if DEV
+    // 优先本地加载
+    AudioClip clip = LocalResourceLoader.LoadAudioClip(audioPath);
+    if (clip != null)
+        return clip;
+    // 本地加载失败，尝试Resources
+    string resourcePath = Path.ChangeExtension(audioPath, null);
+    AudioClip fallback = Resources.Load<AudioClip>(resourcePath);
+    if (fallback == null)
+        Debug.LogError("Resources.Load 也未找到音频: " + resourcePath);
+    return fallback;
+#else
+    // 直接Resources加载
+    return Resources.Load<AudioClip>(audioPath);
+#endif
+}
 
     private void InterpretDialogueLine(string dialogueLine)
     {
@@ -283,73 +319,4 @@ public class VisualNovelScriptInterpreter : MonoBehaviour
         currentLineIndex = data.currentLineIndex;
     }
 
-    public Sprite LoadSprite(string imagePath)
-    {
-#if DEV
-        // 先尝试本地路径加载
-        // 自动补全 .png 扩展名
-        string pngRelativePath = imagePath;
-        if (!imagePath.EndsWith(".png", System.StringComparison.OrdinalIgnoreCase))
-            pngRelativePath += ".png";
-
-        Sprite s = LoadSpriteFromRelativePath(pngRelativePath);
-        if(s != null)
-        {
-            return s;
-        }
-        // 如果本地加载失败，尝试使用.jpeg后缀加载
-        string jpegRelativePath = imagePath;
-        if (!imagePath.EndsWith(".jpeg", System.StringComparison.OrdinalIgnoreCase))
-            jpegRelativePath += ".jpeg";
-        s = LoadSpriteFromRelativePath(jpegRelativePath);
-        if (s != null)
-        {
-            return s;
-        }
-
-        // 如果加载失败，读取资源image/404
-        Debug.LogWarning($"图片加载失败: {imagePath}，尝试加载默认404图片");
-        return Resources.Load<Sprite>("image/404");
-
-#else
-        // imagePath 不带扩展名，直接用于 Resources.Load
-        return Resources.Load<Sprite>(imagePath);
-#endif
-    }
-
-
-    public Sprite LoadSpriteFromRelativePath(string relativePath, int pixelsPerUnit = 100)
-    {
-
-
-        // 获取执行文件所在目录
-        string executableDir = Path.GetDirectoryName(Application.dataPath);
-        // 构建相对于执行文件的完整图片路径
-        string fullPath = Path.Combine(executableDir, "dev/" + relativePath);
-
-        if (!File.Exists(fullPath))
-        {
-            Debug.LogWarning($"图片文件不存在: {fullPath}");
-            return null;
-        }
-
-        try
-        {
-            byte[] imageBytes = File.ReadAllBytes(fullPath);
-            Texture2D texture = new Texture2D(2, 2);
-            if (!texture.LoadImage(imageBytes))
-            {
-                Debug.LogError("无法加载图片数据到Texture2D: " + fullPath);
-                return null;
-            }
-
-            // 创建Sprite
-            return Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), new Vector2(0.5f, 0.5f), pixelsPerUnit);
-        }
-        catch (IOException e)
-        {
-            Debug.LogError($"读取图片时发生错误: {e.Message}");
-            return null;
-        }
-    }
 }

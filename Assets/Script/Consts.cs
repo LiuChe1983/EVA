@@ -15,6 +15,8 @@ public class Consts
 
 
     public static string MUSIC_PATH = "audio/music/";
+    public static string SFX_PATH = "audio/sfx/";
+
 
 
     public static float DEFAULT_TYPING_SPEED = 0.05f;

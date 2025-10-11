@@ -1,8 +1,8 @@
-#外挂版本《池袋挽歌：月之淚與街角之花》遊戲腳本
+#外挂111版本《池袋挽歌：月之淚與街角之花》遊戲腳本
 #版本：5.0 (格式修訂版)
 #序章：凋零
 @bg:bg_penthouse_dawn
-@bgm:bgm_memories_piano,true
+@bgm:111,true
 @char1:
 @char2:
 @char3:
@@ -12,7 +12,7 @@
 @cg:
 [旁白]但世界……是如此輕易就會崩塌的東西。當「長崎」這個姓氏失去所有光環，當練習室的鑰匙被收回，我才明白，我失去的，不僅僅是音樂。
 @bg:bg_apartment_night
-@bgm:bgm_sad_quiet_piano,true
+@bgm:111,true
 @char1:char_soyo_casual_tired
 @char2:char_wakamugi_casual_pretendstrong
 [旁白]狹窄破舊的公寓房間，夜晚。窗外是池袋虛假的霓虹光污染。素世和若麥坐在冰冷的地板上，面前的小茶几上，散落著幾張刺眼的催債通知單。

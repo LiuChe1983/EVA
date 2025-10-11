@@ -13,6 +13,8 @@ public class StartMenu : MonoBehaviour
     public LoadGamePanel LoadGamePanel;
     public ConfigPanel ConfigPanel;
 
+    public AudioSource MainAudioSource;
+
     void Start()
     {
         StartGameBtn.onClick.AddListener(OnStartGame);
@@ -22,6 +24,8 @@ public class StartMenu : MonoBehaviour
         {
             Application.Quit();
         });
+
+        PlayMainMusic();
     }
 
 
@@ -44,5 +48,32 @@ public class StartMenu : MonoBehaviour
     {
         if (ConfigPanel != null)
             ConfigPanel.ShowPanel();
+    }
+
+    public void PlayMainMusic()
+    {
+        AudioClip clip = null;
+#if DEV
+        // 优先本地加载
+        var bgmFullPath = Consts.MUSIC_PATH + "main_menu_bgm";
+        clip = LocalResourceLoader.LoadAudioClip(bgmFullPath);
+        if (clip == null)
+        {
+            Debug.LogWarning("本地加载主菜单音乐失败，尝试Resources加载。");
+            clip = Resources.Load<AudioClip>(bgmFullPath);
+        }
+#else
+        clip = Resources.Load<AudioClip>(bgmFullPath);
+#endif
+        if (clip != null)
+        {
+            MainAudioSource.clip = clip;
+            MainAudioSource.loop = true;
+            MainAudioSource.Play();
+        }
+        else
+        {
+            Debug.LogError("主菜单音乐加载失败！");
+        }
     }
 }

@@ -4,15 +4,16 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System;
+using CorePro.ButtonPro;
 
 public class ConfigPanel : MonoBehaviour
 {
     public TMP_Dropdown winModeDropdown;
     public TMP_Dropdown resolutionDropdown;
-    public Button resetButton;
+    public ButtonPro resetButton;
 
-    public Button closeButton;
-    public Button backToStartButton;
+    public ButtonPro closeButton;
+    public ButtonPro backToStartButton;
 
     private Resolution defaultResolution;
 
@@ -28,7 +29,7 @@ public class ConfigPanel : MonoBehaviour
     private void InitializeWinModeDropdown()
     {
         winModeDropdown.ClearOptions();
-        List<string> options = new List<string> { "窗口模式", "全屏模式" };
+        List<string> options = new List<string> { "Window", "FullScreen" };
         winModeDropdown.AddOptions(options);
         winModeDropdown.value = PlayerPrefs.GetInt("WinMode", 1); // 默认全屏
         winModeDropdown.onValueChanged.AddListener(OnWinModeChanged);

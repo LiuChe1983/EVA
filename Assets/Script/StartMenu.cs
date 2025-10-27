@@ -1,3 +1,4 @@
+using CorePro.ButtonPro;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,10 +6,12 @@ using UnityEngine.UI;
 
 public class StartMenu : MonoBehaviour
 {
-    public Button StartGameBtn;
-    public Button LoadGameBtn;
-    public Button ConfigBtn;
-    public Button QuitBtn;
+
+    public ButtonPro StartBtnPro;
+
+    public ButtonPro LoadGameBtn;
+    public ButtonPro ConfigBtn;
+    public ButtonPro QuitBtn;
 
     public LoadGamePanel LoadGamePanel;
     public ConfigPanel ConfigPanel;
@@ -17,7 +20,7 @@ public class StartMenu : MonoBehaviour
 
     void Start()
     {
-        StartGameBtn.onClick.AddListener(OnStartGame);
+        StartBtnPro.onClick.AddListener(OnStartGame);
         LoadGameBtn.onClick.AddListener(OnLoadGame);
         ConfigBtn.onClick.AddListener(OnConfig);
         QuitBtn.onClick.AddListener(() =>
@@ -53,9 +56,10 @@ public class StartMenu : MonoBehaviour
     public void PlayMainMusic()
     {
         AudioClip clip = null;
+        var bgmFullPath = Consts.MUSIC_PATH + "main_menu_bgm";
 #if DEV
         // 优先本地加载
-        var bgmFullPath = Consts.MUSIC_PATH + "main_menu_bgm";
+        
         clip = LocalResourceLoader.LoadAudioClip(bgmFullPath);
         if (clip == null)
         {

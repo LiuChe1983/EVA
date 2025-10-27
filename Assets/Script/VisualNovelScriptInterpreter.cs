@@ -193,6 +193,11 @@ public class VisualNovelScriptInterpreter : MonoBehaviour
         if (parameters.Length > 0)
         {
             string bgmPath = parameters[0].Trim();
+            if(string.IsNullOrEmpty(bgmPath))
+            {
+                bgmAudioSource.Stop(); // 如果参数为空，停止播放BGM
+                return;
+            }
             bool isLooping = parameters.Length > 1 && parameters[1].Trim().ToLower() == "true";
             var bgmFullPath = Consts.MUSIC_PATH + bgmPath;
             AudioClip bgmClip = LoadAudioClip(bgmFullPath);

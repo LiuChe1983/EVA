@@ -1,3 +1,4 @@
+using CorePro.ButtonPro;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -5,7 +6,7 @@ using UnityEngine.UI;
 public class LoadGamePanel : MonoBehaviour
 {
     public TMP_Text titleText;
-    public Button closeButton;
+    public ButtonPro closeButton;
     public Button[] saveSlotButtons = new Button[6];
 
     public SaveSystem saveSystem; // 依然可在Inspector分配

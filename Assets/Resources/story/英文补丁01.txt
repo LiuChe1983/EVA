@@ -1,0 +1,1010 @@
+﻿@cg:
+@bgm:
+@bg:bg_shrine_day
+[Story]Shrine Secret Chronicle: Prologue: The Miko and the Seeker of Salvation
+@cg:
+@bgm:M205
+@bg:bg_shrine_day
+[Story]Since the age of the gods, a sacred precinct separated from the bustle of the human world, Tokoyo Shrine.
+[Story]Deep within the lushly overgrown guardian forest.
+[Story]The path, lined with moss-covered stone lanterns, is dim even during the day, filled with a silence so profound it makes one forget the time of the mortal world.
+[Story]The first time its name was recorded in the history of this country dates back to the distant age of the gods.
+[Story]Much is not spoken of it, only that it is a mysterious sanctuary whose mission is to exorcise the "calamity" beyond human comprehension and protect the peace of Tokoyo.
+[Story]And I am Sakiko Toyokawa. The sole miko who serves this Tokoyo Shrine and inherits its mission.
+[Story]My duty is sacred and absolute.
+[Story]The divine power dwelling in this body, and all the bodily fluids that flow from it, were bestowed by the gods to purify the defilement rampant in Tokoyo.
+@cg:
+[Story]So I believed. Until that day, when that girl knocked on the gates of this shrine.
+@bg:bg_honden_clean
+[Story]It was a sweltering afternoon, with the lingering scent of late summer still thick in the air.
+[Story]Only the cool sound of a wind chime echoed through the silent precincts.
+[Story]As I finished cleaning the main hall and was cooling off on the wet veranda, I suddenly heard a faint voice.
+@char1:char_sakiko_miko_default
+[Sakiko Toyokawa]......
+[???]"E-excuse me..."
+@char2:char_hatsune_armor_timid
+[Story]Turning around, I saw a girl standing there, about the same age as me.
+[Story]She was tall, and her well-proportioned body was clad in magnificent crimson armor. Her shining golden hair that reflected the sunlight and her purple eyes, which held a strong passion and expectation, were impressive.
+[Story]However, my eyes did not miss the dark stagnation lurking deep within her lovely appearance.
+[Story]It was not the kind of thing like mere worries or anxieties. It was a more deep-rooted, gruesome presence of "calamity."
+[Story].......
+[Story]...
+[Story].
+@cg:
+@bg:bg_kitchen_default
+@bgm:
+@cg:cg_begining3
+[Sakiko Toyokawa]"...Welcome to Tokoyo Shrine. I am Sakiko Toyokawa, the miko who serves here."
+[Sakiko Toyokawa]"...Um, what seems to be troubling you...?"
+[???].......
+[???]...
+@cg:
+[Story]I tried to speak in a calm voice as I invited the girl into the main hall.
+[Story]Seated formally on the tatami mat, she kept her head down and was reluctant to speak. I could see the tips of her fingers were white with tension.
+[Sakiko Toyokawa]"It's alright. There is nothing here that will harm you..."
+[Sakiko Toyokawa]"Please, rest assured. ...Take your time, could you please tell me about yourself?"
+[Story]As I urged her, the girl began to speak in a faint voice, bit by bit.
+[Story]Her name was Uika Misumi. And about the terrifying changes that had recently occurred in her body.
+[Uika Misumi]"...Um... inside my body... I feel like... there's something... bad..."
+[Story]The voice of the girl who called herself Uika was trembling.
+[Story]It was no wonder. The evil aura rising from her body was no ordinary thing. It was a high-level evil spirit,
+[Story]and of a particularly troublesome kind, one that had fed on human passions for a long time and accumulated power.
+[Uika Misumi]"Every night, I have sleep paralysis... and very scary dreams.... A-and... also..."
+[Story]She hesitated, biting her lip tightly. Her white cheeks turned a faint red, perhaps from shame.
+[Uika Misumi]"...My stomach area suddenly gets hot..."
+[Uika Misumi]"It's as if... something... is about to be born... inside me... I have this... strange feeling..."
+@bg:bg_ritualroom_wood
+[Story]I listened to her words in silence.
+[Story]High-level evil spirits feed on the host's life force and mental strength, but on rare occasions, to take deeper root,
+[Story]I have heard that they can alter the host's body itself, physically creating their own foothold.
+[Story]A forbidden curse that I had only ever read about in ancient texts....
+[Sakiko Toyokawa]"...I see. If you don't mind, may I use my divine power to look at your body?"
+[Sakiko Toyokawa]"...Just for a moment, if you'll excuse me."
+[Story]I stood up, knelt in front of her, and gently reached for the hem of her one-piece dress.
+[Uika Misumi]"Hyaa...!?"
+[Story]Uika's shoulders jumped in surprise.
+[Sakiko Toyokawa]"It's okay. I won't do anything scary..."
+[Sakiko Toyokawa]"I'm just going to confirm the source of the curse."
+[Story]I spoke to her gently and slowly lifted the thin fabric.
+[Story]What appeared was a lower abdomen that was plump and rounded, disproportionate to the girl's delicate frame.
+[Story]I closed my eyes and focused my consciousness. The pure divine power emanating from my fingertips traveled along her skin and penetrated into her body.
+[Story]---This is....
+[Story]I couldn't help but gasp at the sight that appeared in my mind.
+[Story]Her body.... In the place that should have been a sacred space for nurturing life, a gruesome thing had taken root.
+[Story]A black, throbbing, sinister mass of flesh. Without a doubt, the embodiment of the curse created by the evil spirit.
+[Story]And its shape was... that of a man.
+[Story]Although the form was still indistinct, it was unmistakably the shape of a defiled penis, a blasphemy against life.
+[Sakiko Toyokawa]"...How could this... happen..."
+[Story]I gently returned her clothes to their original state and took a step back.
+[Story]I couldn't raise my face. It was too pitiful that a girl this young was bearing such a wicked curse all by herself.
+[Uika Misumi]"Ms. Sakiko...? What... is happening... to my body...?"
+[Story]Her voice, trembling with anxiety, pierced my heart.
+[Story]I am a miko. I must save this person.
+[Story]As the miko of this Tokoyo Shrine, I must.
+[Sakiko Toyokawa]"...Ms. Misumi. What's eating away at your body seems to be a very strong evil spirit."
+[Sakiko Toyokawa]"...But please, don't worry. I will... I will definitely exorcise that curse for you."
+[Story]I said, putting firm determination into my voice.
+[Story]At my words, Uika looked up with a start. Her beautiful eyes quickly welled up with tears.
+[Uika Misumi]"R-really...? Can I... be saved...?"
+[Sakiko Toyokawa]"Yes, definitely. ...However, for that..."
+[Story]I paused.
+[Story]What I was about to say might be too cruel a request for her.
+[Sakiko Toyokawa]"...That ritual must be performed by just the two of us."
+[Sakiko Toyokawa]"And... what I'm about to tell you... if an ordinary person were to hear it,"
+[Sakiko Toyokawa]"they might find it... very... indecent... It is that kind of ritual."
+[Story]At my words, the color drained from Uika's face.
+[Uika Misumi]"...A ritual...?"
+[Sakiko Toyokawa]"Yes. The evil spirit is nesting in your most sacred place, turning its power into defilement."
+[Sakiko Toyokawa]"To purify it, there is no other way but to use the purest power produced from my body."
+[Story]I explained quietly, but with force in every word.
+[Story]To pour the "holy water" concentrated with my divine power—that is, my urine—into her body and wash away the defilement.
+[Story]Through the sacred dance dedicated to the gods, its sensual movements would raise my divine power to its limit,
+[Story]and by having her sip the "true holy liquid"—that is, my arousal fluid—gushing from the innermost part of my body, the core of the evil spirit would be purified.
+@char1:char_sakiko_ritual_frantic
+@char2:char_hatsune_armor_expectant
+[Uika Misumi]"...N-no way..."
+[Story]Uika was speechless, trembling all over. Her eyes showed fear and a hint of bewilderment.
+[Story]It's a natural reaction. It's unreasonable to ask a young girl to accept such a thing.
+@bg:bg_kitchen_default
+[Sakiko Toyokawa]"...I won't force you. But if you leave it as it is, your soul will eventually be devoured by the evil spirit."
+[Story]I calmly stated the facts.
+[Story]A heavy silence fell upon the room.
+[Story]Eventually, after a long, long silence, Uika said in a trembling voice.
+[Uika Misumi]"...I-I beg you... Ms. Sakiko...!"
+[Story]She threw herself onto the tatami mat, pressing her forehead against it in a plea.
+[Story]Her desperate appeal tightened my chest.
+[Story]I gently placed my hand on her slender shoulder and vowed.
+[Story]No matter what happens to me, I will save this lovely soul.
+@char1:
+@char2:
+[Story]And so, the long and utterly perverse "Ritual of Exorcism" between Uika and me began.
+[Story].......
+[Story]...
+[Story].
+——————————————————————————————————————————————————————————————————————————
+@bg:bg_ritualroom_wood
+@cg:cg_begining2
+[Story]Shrine Secret Chronicle: Chapter 1: The First Ritual
+@bgm:A205
+@cg:
+@char1:char_sakiko_miko_default
+@char2:char_hatsune_ritual_ecstasy
+[Story]Shrine Secret Chronicle: Chapter 1: The First Ritual
+[Story]A month later, on the night of the new moon. Here, even deeper than the main hall, is a secret inner sanctum whose existence is known only to the successive generations of miko.
+[Story]The air is chilly, filled with the fragrant scent of ancient incense burned solely for the purpose of lust.
+@cg:cg_begining1
+[Story]In the depths of Tokoyo Shrine, shrouded in deep darkness untouched even by moonlight, lies the Chamber of Pure Darkness. It is a special place used by generations of miko only for performing the most sacred rituals.
+[Story]The air is chilly and filled with the dense aroma of incense.
+[Story]Upon the purified white sand spread in the center, I sat quietly, clad in the miko attire meant only for the ritual.
+[Story]It was a modification of the traditional form, improved to enhance divine power.
+[Story]The crimson hakama had bold slits that reached up to the tops of my thighs, and the white garment covering my upper body
+[Story]was cut low at the chest, shamelessly exposing the cleavage of my breasts, which were far too full for a miko.
+[Story]The fabric was so thin it was almost transparent, revealing the color of the skin beneath.
+[Story]To say there was no shame would be a lie.
+@cg:
+[Story]But this was all a sacred garment for offering my body to the gods and obtaining great power.
+[Story]I emptied my mind and thought only of the ritual that was about to begin.
+@char1:char_sakiko_ritual_frantic
+@char2:char_hatsune_armor_expectant
+[Story]Eventually, with a quiet rustle of clothes, Uika stepped into the Chamber of Pure Darkness.
+[Story]She, too, was dressed only in a thin white silk kimono prepared for the ritual. The faint light of the lamps softly illuminated the lines of her slender body.
+[Sakiko Toyokawa]"...Ms. Misumi. Please, come this way."
+[Story]At my voice, she nodded and timidly stepped onto the white sand. Then, she quietly sat in the formal seiza position in front of me.
+[Story]Her face, tense and stiff, was pale and bloodless.
+[Sakiko Toyokawa]"...Don't be afraid, it's alright. Please leave everything to me."
+[Story]I spoke in the gentlest voice I could manage.
+[Story]She nodded slightly, closing her eyes tightly. Her long eyelashes trembled faintly.
+@char1:sakiko_smile_blush
+@char2:char_hatsune_armor_expectant
+[Sakiko Toyokawa]"...Then, let us begin."
+[Story]I solemnly declared and began to chant the norito prayer.
+[Story]Ancient words echoed through my mouth into this sacred space.
+[Story]My whole body's nerves were sharpened, and I could feel the divine power within me slowly awakening.
+[Story]After finishing the prayer, I stood up and stood before Uika.
+[Story]And then, I commanded.
+@cg:cg_union_penetration
+[Sakiko Toyokawa]"...Ms. Misumi. ...Could you, please, lie on your back there...?"
+[Uika Misumi]"...Y-yes..."
+[Story]Though confused, Uika did as she was told and slowly lay down.
+[Story]Her defenseless body exposed. I focused my gaze on the center, on her slightly raised lower abdomen.
+[Story]The source of all evil is there.
+[Sakiko Toyokawa]"The first stage of the ritual. I will purify your body with my holy water."
+@cg:
+[Story]I quietly knelt between her legs and exposed my lower body from the deep slit of my hakama.
+[Story]Then, I slowly lowered my hips and straddled the place that should have been pure on Ms. Uika.
+[Uika Misumi]"Hyaa...! M-Ms. Sakiko...!"
+[Story]A faint scream escaped her lips.
+[Story]My soft buttocks pressed firmly against her hard pubic bone through the thin silk.
+[Sakiko Toyokawa]"...It's okay. ...You must not move..."
+[Story]I said, trying to maintain a calm voice.
+[Story]Before the ritual, I cannot allow myself to be swayed by emotion.
+[Story]I closed my eyes and concentrated my consciousness on my tanden. I feel the heightened divine power gathering in my lower abdomen....
+[Story]A hot torrent burst forth from within me as if a dam had broken.
+@cg:cg_ritual_holywater
+[Sakiko Toyokawa]"...Ah... ahh...!"
+[Story]A warm, golden liquid....
+[Story]This is no ordinary urine. It is a sacred torrent of purification, concentrated with my divine power.
+[Story]The holy water slowly soaks Ms. Uika's white kimono, seeping through to the skin beneath, washing away the defilement that plagues her body.
+[Story]Jorojoro, to.... The raw sound of water echoed through the silent Chamber of Pure Darkness.
+[Uika Misumi]"...Ah... ahh...!"
+[Story]Muffled sounds continued to leak from Ms. Uika's mouth. I couldn't tell if it was from fear or something else.
+[Story]I just felt the definite sensation of the holy water flowing from within me, purifying the evil ki nesting inside her.
+[Story]Eventually, when all the holy water had been poured from my body, I quietly moved off her.
+[Sakiko Toyokawa]"...Next, with my dance, I will raise my divine power to its limit."
+[Sakiko Toyokawa]"Please don't look away... please, watch until the very end."
+@cg:
+@char1:
+@char2:
+@cg:cg_ritual_kaguradance2
+[Story]I stood up and proceeded to the center of the Chamber of Pure Darkness.
+[Story]Then, taking the kagura suzu bells in my hand, I began to dance.
+[Story]The "Kishin Mai," a secret of secrets passed down only at Tokoyo Shrine.
+[Story]It is a sacred dance to invite the gods of heaven and earth and to bring their power into my body.
+[Story]From a slow beginning, the dance gradually gained heat.
+[Story]Swaying my hips, shaking my full breasts greatly, and boldly revealing my supple legs from the slits of my hakama.
+@cg:
+[Story]To an onlooker, it would probably seem like a terribly lewd and sensational dance.
+[Story]But each of these movements is a calculated action to transform my body into a vessel for the gods and amplify my divine power.
+[Story]My consciousness is gradually being drawn into a state of ecstasy.
+[Story]My body is hot. The depths of my lower abdomen ache with a tightening sensation.
+[Story]Divine power is welling up.
+@cg:cg_ritual_holywater1
+[Sakiko Toyokawa]"...Hah... hah...!"
+[Story]When the dance reached its climax, I threw aside the kagura suzu bells and knelt on the spot.
+[Story]I can't stand anymore.
+[Story]My whole body trembled with joy, and from the base of my legs, nectar was gushing out.
+@cg:
+@char1:sakiko_smile_blush
+@char2:char_hatsune_armor_expectant
+[Sakiko Toyokawa]"...Ms. Misumi... now is the time..."
+[Story]I called out to Uika, panting.
+[Story]She was staring at my dance, and at my current state, with a dazed expression.
+[Sakiko Toyokawa]"My, 'True Holy Liquid'... I want you to... draw it out... with your tongue...!"
+[Story]I spread my knees wide, exposing myself in the most defenseless way before her.
+[Story]There, where the sacred power was concentrated and about to overflow, my pussy....
+[Sakiko Toyokawa]"...Come, quickly... please...!"
+@char1:
+@char2:
+[Story]At my voice, which was close to a scream, Uika seemed to snap back to her senses, got on all fours, and crawled towards me.
+[Story]Then, she buried her face in my crotch.
+@cg:cg_ep1_licking1
+[Sakiko Toyokawa]"Nn... uu...!"
+[Story]A soft, moist sensation.
+[Story]Uika's small tongue timidly licked my most sensitive spot.
+[Story]A lightning-like pleasure shot through my entire body.
+@cg:cg_ep1_licking2
+[Sakiko Toyokawa]"Ah... nnh...! ...Th-there... more...!"
+[Story]At this point, I had no sense of shame.
+[Story]I just wanted to heighten this pleasure more and more, to release all the divine power within me. That was my only thought.
+[Story]Uika's tongue work was clumsy at first, but it gradually became bolder.
+[Story]Gently stroking the mucous membrane, sucking on it, and sometimes, with its tip, persistently teasing the hardened bud.
+@cg:cg_ep1_licking3
+[Sakiko Toyokawa]"Ah, ahhh! No... I'm going to... going to come...! I'm coming, so...!!"
+[Story]My hips, regardless of my will, began to buck and buck violently.
+[Story]Something exploded deep inside my lower abdomen.
+[Story]A hot, dense torrent erupted from the deepest part of my body.
+[Story]It was a true holy liquid, possessing a purity incomparable to the holy water from before... my arousal fluid.
+[Sakiko Toyokawa]"Nn... nnn...!"
+@cg:cg_ep1_licking4
+[Story]Uika took it all in with her small mouth, not letting a single drop escape, and swallowed it down, gulp after gulp.
+[Story]I collapsed, panting heavily.
+[Story]The strength drained from my body.
+[Story]But in its place, an indescribable sense of fulfillment filled my entire being.
+[Story]The evil spirit was exorcised.
+[Story]I had fulfilled my mission as a miko.
+[Story]In my fading consciousness, I saw Uika's face as she looked up.
+[Story]Her mouth was wet with my holy liquid, and her eyes held an ecstatic, feverish light.
+[Story]It was like the eyes of a predator that had finally caught its long-sought prey.
+[Story]At that time, I still hadn't realized.
+[Story]That this was just the beginning of my soul's descent into a deeper, more gruesome swamp of desire.
+[Story]And that the lovely girl before me was the most terrifying "monster" that would lead me into that hell.
+@cg:
+@char1:
+@char2:
+[Story].......
+[Story]....
+[Story].
+————————————————————————————————————————
+@bgm:M109
+@bg:bg_kitchen_default
+@cg:cg_begining_stage1
+[Story]Shrine Secret Chronicle: Chapter 2: The Manifestation and Evolution of the Root of Calamity
+@cg:
+[Story]The sweet, thick scent lingering in the Chamber of Pure Darkness. The traces of my pure holy liquid scattered on the white sand.
+[Story]And above all, what was burned into my mind and wouldn't leave was the expression on Ms. Uika's face at the end of the ritual.
+[Story]Was that the pure joy of a soul freed from suffering? Or was it--.
+[Story]I shake my head, trying to dispel the irreverent doubts that have sprouted within me.
+[Story]I am the miko of Tokoyo Shrine. My divine power is absolute.
+[Story]It is an undeniable fact that through that ritual, her soul has taken a step closer to salvation.
+@char1:char_sakiko_ritual_ecstasy
+@char2:char_hatsune_ritual_ecstasy
+[Story]So I told myself, day after day.
+[Story]And then, the night came when the new moon once again ruled the night sky.
+[Story]As promised, Ms. Uika visited Tokoyo Shrine. Her steps were somewhat lighter than before, and her expression seemed a little brighter.
+[Uika Misumi]"Ms. Sakiko.... The other day, that... thank you so much. Since that day, I've been able to sleep at night, and my body feels... a little lighter."
+[Story]Her shy smile made her look, from any angle, like a fragile girl seeking salvation. A sense of relief and pride as a miko welled up in my chest.
+[Sakiko Toyokawa]"Yes, that's good. But you must not let your guard down. The root of the curse is much deeper than you think. Tonight, I will do my best with all my heart."
+"Y-yes...! I leave everything in your hands, Ms. Sakiko...!"
+[Story]We once again stepped into that Chamber of Pure Darkness.
+[Story]In the flickering light of the lamps, just like last time, I wore the indecent miko attire for the ritual and faced her. Ms. Uika, clad in a thin white silk garment, was perhaps nervous, as her white skin was trembling slightly.
+[Sakiko Toyokawa]"...Let's begin."
+[Story]Chanting the norito, I raise my divine power. Perhaps because I have experienced the ritual once before, my body sinks into a state of rapture faster and deeper than before. My skin becomes hot, my breathing sweet and disordered, and from my crotch, the sacred nectar is already beginning to seep out.
+[Story]This is not good. My heart is racing. I reprimanded myself and focused my mind.
+@cg:cg_ep2_begin0
+[Story]In the last ritual, I washed away the surface defilement with my holy water and holy liquid. But that's not enough. I must directly strike the body of that curse, the "root of all evil" that nests in her body.
+[Sakiko Toyokawa]"...Ms. Uika. Tonight, we will perform a more advanced ritual."
+[Story]I knelt before her as she lay on her back and solemnly announced.
+[Sakiko Toyokawa]"The core of the curse is within your body... at its center. I must see it with my own eyes and destroy it directly with my divine power."
+[Uika Misumi]"D-directly... you say...?"
+[Story]I can hear Ms. Uika's voice rise with anxiety.
+[Sakiko Toyokawa]"Yes. It may be a little unsightly... but this is also to save you. Please, bear with it."
+[Story]As I said that, I gently placed my fingers on the opening of the white silk garment she was wearing. Then, slowly, I spread it to the left and right.
+@cg:cg_union_penetration
+[Uika Misumi]"Ah..."
+[Story]Illuminated by the lamplight was the naked body of a girl, as if the word "purity" itself had taken form, still retaining a trace of childishness. Small, cute breast buds, a tightly cinched waist, and, as if shy, the closed base of her legs.
+[Story]However, my eyes did not miss the slight abnormality visible beneath the plump pubic mound in the center.
+[Story]Only that part was unnaturally swollen and emitted a sinister aura.
+@cg:cg_ep2_begin1
+[Sakiko Toyokawa]"...Excuse me."
+[Story]I placed my hands on her trembling knees and slowly spread them apart.
+[Story]There was no resistance. Ms. Uika simply allowed me to do as I pleased, exposing her most hidden place before me.
+[Story]And then, I saw it.
+[Story]Something that should not have been there.
+@cg:cg_ep2_begin2
+[Uika Misumi]"...W-what is this..."
+[Story]My breath caught in my throat.
+[Story]From between the girl's delicate, petal-like labia, a purplish thing peeked out, slick and slimy.
+[Story]It probably hadn't fully grown yet, so it wasn't very large.
+[Story]But on its throbbing surface, vein-like things floated eerily, and its tip twitched and convulsed as if it had a will of its own.
+[Story]Undoubtedly, a man's penis. But clearly different from that of a living human, it was a cursed mass that emitted a gruesome and blasphemous aura.
+[Story]In my mind, the vision I had when I first saw her came rushing back.
+[Story]This is the main body of the evil spirit that is parasitizing her body and trying to devour her soul.
+[Uika Misumi]"...Oh... how could this be..."
+[Story]Tears almost spilled from my eyes. That this frail girl had been carrying such filth, such a curse within her body.
+[Story]Sympathy, and a fierce anger as one who serves the gods, welled up from within me.
+[Story]Unforgivable. I will absolutely not allow such a blasphemous existence to remain in this world.
+[Uika Misumi]"Ms. Sakiko...? I-is that... the monster inside me...?"
+[Story]At Ms. Uika's tearful question, I snapped back to my senses.
+[Story]That's right. I will exorcise this monster. With my own hands.
+[Sakiko Toyokawa]"...Ms. Misumi. Listen carefully."
+[Story]I wiped away my tears and said in a resolute voice.
+[Sakiko Toyokawa]"That is the root of all evil. It is the embodiment of filth that gives birth to all curses. Unless it is destroyed, your soul will never find peace."
+[Uika Misumi]"Th-then, what should I do..."
+[Sakiko Toyokawa]"I will destroy it."
+[Story]I declared.
+[Sakiko Toyokawa]"With this body of mine. This mouth that chants the norito, its breath and saliva contain concentrated divine power."
+[Sakiko Toyokawa]"I will take that source of filth into my mouth, and by pouring all of my divine power into it, I will purify and destroy it."
+[Uika Misumi]"...In your mouth...!? N-no way...!"
+[Story]Ms. Uika's eyes widened in disbelief. Her face was flushed bright red with fear and shame.
+[Sakiko Toyokawa]"...I understand. I know how indecent this act is. But there is no other way. I am a miko. To save you, I will accept any filth into my body."
+[Story]My resolve was genuine.
+[Story]To offer this body as a sacrifice to the gods. That is the destiny imposed on the miko of Tokoyo Shrine.
+[Story]Gazing into my sincere eyes, Ms. Uika eventually gave a small, slow nod.
+[Uika Misumi]"...I-I... understand... If you say so, Ms. Sakiko... I will... endure it..."
+[Story]Her brave words touched my heart.
+[Sakiko Toyokawa]"...Thank you. Then, let's begin."
+[Story]I steeled myself and brought my face close to that gruesome penis.
+[Story]A thick, suffocating, masculine scent hit my nose. It was a scent I had never smelled before, wild, yet with a hint of sweetness, a perverse aroma.
+[Story]I slowly part my trembling lips.
+[Story]And then, I let my tongue trail over its tip.
+[Sakiko Toyokawa]"Nn... uu...!"
+[Story]I could feel Ms. Uika's body jolt through my knees.
+[Story]The penis also reacted to the touch of my tongue, seeming to grow even harder.
+[Story]A lukewarm, slimy surface. Beneath it, the throbbing sensation of life.
+[Story]While chanting the norito in my mind, I slowly took it all into my mouth, as if to envelop it with my pure divine power.
+[Sakiko Toyokawa]"...Nn... gu... uu..."
+@cg:cg_ritual_fellatio
+[Story]A foreign object invades the back of my throat.
+[Story]It's painful. It's gruesome. I want to spit it out.
+[Story]But, I endured. I gripped Ms. Uika's hips with both hands, restraining her movements, and tried to swallow it deeper, deeper, to the very root of the cursed object.
+[Story]My mouth was quickly filled with the presence of the penis. I couldn't even move my tongue. Only the raw sound of my saliva and the unidentifiable mucus seeping from the penis mixing together, kuchu, kuchu, echoed.
+[Sakiko Toyokawa]"...Ah... hau... S-Sako-sama..."
+[Story]Ms. Uika's pained, yet somewhat sweet breath reached my ears.
+[Story]She must be enduring the pain of purification from the ritual. As if to encourage her, and with a strong will to destroy the cursed object, I began to work the penis in my mouth with my tongue.
+[Story]From base to tip, tip to base. With a tongue filled with divine power, I lick its surface, suck on it, and carefully, so as not to use my teeth, I work it.
+@cg:cg_ritual_paizuri
+[Story]But, what is happening?
+[Story]The penis that received my divine power, instead of shrinking, seems to be revitalized, growing larger, harder, and swelling up.
+[Sakiko Toyokawa]"Nn...!? ...Gu, guu...!"
+[Story]It, now clearly a size larger, pushes my throat open, deeper and deeper.
+[Story]Strange. Why.... My divine power isn't working...?
+[Story]No, not only that, it's as if this monster is feeding on my divine power...!?
+@cg:cg_night_oral0
+[Story]While I was in a state of confusion, the penis in my mouth only grew more vigorous. It throbbed more intensely than ever before, and from its tip, a pre-ejaculate fluid gushed out endlessly, moistening my throat.
+[Story]And then, the next moment.
+[Uika Misumi]"Ah...! Aaaaaah!!"
+[Story]Ms. Uika's body arched like a bow.
+[Story]At the same time, deep in my throat, the penis convulsed violently, bururu.
+[Story]A hot torrent.
+[Story]A grotesquely thick, viscous liquid pried open the gate at the back of my throat that should never be opened, and gushed into its depths.
+[Story]It was a taste I had never experienced before, an intense flavor.
+[Story]A sweet taste, like iron, yet like ripe fruit.
+[Story]A blasphemous umami, as if life itself had been concentrated.
+@cg:cg_night_oral1
+[Uika Misumi]"Gulp... n, ku...!"
+[Story]I was unable to resist and swallowed it all down.
+[Story]I feel the core of my body slowly getting hot.
+[Story]After the ritual was over, I couldn't move from that spot for a while.
+[Story]My mouth was soaking wet with my own saliva and the monster's semen.
+[Story]Before me, now a size larger and filled with a sinister vigor, sat that penis.
+[Story]Did I fail...?
+[Story]My sacred ritual... was it useless against this monster...?
+[Story]Not only that, but did I make this monster stronger, nurture it...?
+@cg:
+[Story]Despair darkens my heart.
+[Story]But deep within my heart, I was still pretending not to notice the faint heat radiating from the blasphemous liquid I had just swallowed.
+@char1:char_sakiko_ritual_frantic
+[Sakiko Toyokawa]"...I'm so sorry... Ms. Misumi..."
+[Story]I barely managed to squeeze out the words.
+[Sakiko Toyokawa]"...My power... was not enough..."
+@char2:char_hatsune_armor_expectant
+[Uika Misumi]"Th-that's not true...! You did all that for me, Ms. Sakiko..."
+[Story]Ms. Uika hurriedly got up and took my hand. Her eyes were moist, filled with gratitude and deep trust.
+@cg:cg_ep2_sorry
+[Sakiko Toyokawa]"...But I won't give up."
+[Story]I looked into her eyes and swore firmly.
+[Sakiko Toyokawa]"...This monster is far more powerful than I thought. A ritual once a month is not enough. ...In seven days. We will perform the ritual again in seven days. This time, for sure...!"
+@char1:
+@char2:
+@cg:
+[Story]My voice trembled slightly with frustration, determination, and an excitement from an unknown emotion I myself was unaware of.
+[Story]I didn't know yet.
+[Story]That this seven-day interval would be the beginning of the gradual but certain collapse of my reason and my pride as a miko.
+@bg:bg_honden_clean
+————————————————————————————————————
+@bgm:M205
+[Story]Shrine Secret Chronicle: Interlude - A False Everyday Life
+[Story]Her profile, illuminated by the morning sun, held an anticipation for the ritual, so pure and beautiful as to not hint at the shadow of lust.
+[Story]For the month between the first ritual and the next new moon, Ms. Uika Misumi decided to stay at Tokoyo Shrine.
+[Story]The curse dwelling in her body was not so simple that it could be exorcised in a single ritual, even with my divine power.
+[Story]The pretext was to ensure her safety and to prevent the defilement from leaking outside.
+@bg:bg_kitchen_default
+@cg:cg_begining_honden
+[Story]Ever since I can remember, I have lived almost entirely alone in this shrine. Even more so after the passing of the previous miko, who was both my teacher and grandmother. Silence was my daily life.
+[Story]Therefore, the fact that there was someone else besides me in the precincts created a strange and somewhat unsettling ripple in my heart.
+@cg:
+[Story]In the morning, I wake with the dawn, wash my face with cold water, and begin cleaning the sacred grounds. That was my daily routine. That day, too, as I was about to start sweeping the main hall with a bamboo broom, I already sensed a human presence there.
+[Sakiko Toyokawa]"...Ms. Uika?"
+@cg:
+@bg:bg_honden_clean4
+@char1:char_sakiko_miko_default
+@char2:char_hatsune_ritual_ecstasy
+[Story]At my call, she, who was wiping the long veranda of the main hall with a cloth, looked up with a start.
+[Uika Misumi]"Ah, Ms. Sakiko... good morning."
+[Sakiko Toyokawa]"Good morning. But, that's something I should..."
+[Uika Misumi]"No."
+[Story]She shook her head firmly, though her voice was faint. "I feel bad just being taken care of here. I want to be of some help, even if it's just a little."
+[Story]She said, smiling faintly.
+[Story]Her profile, illuminated by the morning sun, was so pure and beautiful that it didn't show any sign of illness.
+[Story]Seeing her so determined, I felt a tightness in the depths of my chest.
+[Story]I must save this person, this gentle soul. I renewed my resolve.
+@bg:bg_honden_clean3
+[Story]In the morning, we did laundry together.
+[Story]By the side of an old well in the corner of the shrine precincts, we filled a large tub with water and scrubbed my miko attire and the simple kimono she was wearing.
+[Uika Misumi]"It must be heavy. I'll do it."
+[Story]Seeing her slender arms struggling to lift the water-soaked, heavy cloth, I spoke up.
+[Sakiko Toyokawa]"It's alright."
+[Story]she smiles.
+@char1:char_sakiko_ritual_determined
+@char2:char_hatsune_casual_smile
+[Uika Misumi]"When I'm moving my body like this, I feel like I can forget about the unpleasant things for a little while."
+@bg:bg_honden_clean2
+[Story]At those words, I was left speechless.
+[Story]It pains my heart to think that the source of the "unpleasant things" she is trying to forget lies within her own body.
+@char1:char_sakiko_ritual_frantic
+@char2:char_hatsune_armor_expectant
+[Story]The sound of the two of us silently scrubbing the cloth on the washboard, and the occasional sound of us laughing softly as water splashed, echoed peacefully.
+[Story]We hung the washed laundry on the clothesline in the backyard together.
+[Story]The sight of the white cloth, shining under the sunlight and swaying in the wind, gave me a strange illusion, as if we had been living together like this for a long, long time.
+@bgm:A104
+@bg:bg_kitchen_default
+[Story]Lunch was, as always, a simple affair.
+[Story]In the small kitchen of the shrine office, I prepared freshly cooked rice, miso soup with tofu and wakame seaweed, and pickled cucumbers from the back garden.
+[Story]Eating alone was just a task to fill my stomach. But sitting across from Ms. Uika with a small tray between us, her figure visible through the warm steam gave the space a definite warmth of "life."
+[Uika Misumi]"...It's delicious."
+[Story]Ms. Uika, stuffing her small mouth with rice with all her might, muttered.
+[Sakiko Toyokawa]"This is probably the first time I've had such delicious miso soup."
+[Sakiko Toyokawa]"I'm glad you like it."
+[Story]When I said that, she looked down a little.
+@char1:sakiko_smile_blush
+@char2:char_hatsune_armor_expectant
+[Uika Misumi]"...I've always been alone. It was my dream to eat a warm meal with someone like this."
+[Story]At those words, I saw my own circumstances reflected. I, too, had always been alone.
+[Story]I must save this person.
+@char1:
+@char2:
+[Story]And one day, I must make it so that she can sit around a warm table with someone every day without any worries.
+[Story]My sense of mission as a miko burned even stronger as I shared this false daily life with her.
+@bg:bg_room_night
+[Story]At night, we go to sleep in our respective rooms.
+[Story]Feeling Ms. Uika's presence on the other side of a single paper screen, I think.
+[Story]The gentle her during the day, and the gruesome filth nesting inside her body. The too-great gap between the two.
+[Story]Why must a kind-hearted person like her bear such suffering?
+[Story]A quiet anger towards this unreasonable fate seemed to further sharpen my divine power.
+@bg:bg_honden_night_clean1
+[Story]The next new moon night.
+[Story]This time, for sure.
+[Story]To make this false, yet certainly warm, daily life her true daily life.
+[Story]In the darkness, I clenched my fists tightly, tightly.
+@bg:bg_honden_night
+[Story].......
+[Story]...
+[Story].
+————————————————————————————————————————————————————————————————————————
+——————————————————————————————————————————————————
+[Story]...
+@bg:bg_shrine_ending
+[Story].
+[Story]Shrine Secret Chronicle: Chapter 3: The Sacred Prison
+@bgm:M107
+@bg:bg_ritualroom_wood
+@char1:char_sakiko_ritual_frantic
+@char2:char_hatsune_ritual_victory
+[Story]Three days later. My heart had already converged on a single passion.
+[Story]My sense of mission as a miko and my perverse craving as a female for the stimulation of that thorn... I felt the two of them melting and fusing together.
+@cg:cg_ep3_begin1
+[Story]My pussy was always overflowing with hot nectar, dominated by the instinct to seek that embodiment of love.
+[Sakiko Toyokawa](Ah, I can't stop anymore.... Neither my mouth nor my breasts can satisfy this monster of love....)
+@cg:cg_ep3_begin2
+[Sakiko Toyokawa](There is only one way left... the ultimate ritual that gives the greatest pleasure...! Oh God, please use me as a vessel of love...!)
+@cg:cg_ep3_begin3
+[Story].......
+@cg:cg_decision_wombprison
+@char1:
+@char2:
+[Sakiko Toyokawa]...Ms. Uika...! I shall make my womb a sacred 'prison'.
+[Sakiko Toyokawa]I will welcome that lovely penis into my body with joy and seal it with this power of love for all eternity...!
+[Sakiko Toyokawa]Let us begin the ultimate ritual of love, where this pussy will receive all of the penis...!
+[Uika Misumi]...Ah, Sakiko...! My lovely miko...! How long I have waited for those words...!
+[Uika Misumi]This root of calamity of mine craves your most sacred pussy and the womb deep within it as its eternal abode...!
+[Uika Misumi]Come, receive my penis with the greatest joy...! How hot and alluring the miko's little hole is...!
+@cg:cg_union_penetration
+@char1:
+@char2:
+[Story]This was the conclusion of love that Sakiko had reached. To make her own body an altar that gives the greatest joy.
+[Story]The thorn caresses the soft secret cleft, and the hot penis pierces through. The dense stimulation, and the immense, supreme pleasure that overwhelms it.
+Sakiko's reason, in ecstasy, cracked and turned into a roar of joy.
+[Sakiko Toyokawa]Ah, ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh-!!!! it feels so good!
+[Story]The moment when the soul of the miko, Sakiko Toyokawa, completely merged with the incarnation of lust hidden deep within her body, through joy.
+@cg:
+@cg:CG1
+[Story]Time flowed on, and Tokoyo Shrine was transformed into a temple of love and desire. Uika, in the form of a red oni, and Sakiko, embraced in her arms, became a sacrifice to love. Their union would last for eternity.
+[Story]..............
+[Story]........
+[Story]....
+[Story].
+——————————————————————————————————————————————————
+@bgm:A104
+@bg:bg_honden_altar
+[Story]Shrine Secret Chronicle: Final Chapter: The Dream the Monster Saw
+@char1:
+@char2:
+@cg:cg_ep4_uika1
+[Uika Misumi](I was in love. With that blue-haired, twin-tailed miko who chanted norito in the sunlight. With Ms. Sakiko Toyokawa.)
+[Uika Misumi](I am not a mere human. I am a half-human, half-demon monster with the blood of a loathsome yokai in my veins.)
+@cg:cg_ep4_uika2
+[Uika Misumi](A pure miko like her would never look at a defiled being like me.)
+@cg:cg_ep4_uika3
+[Uika Misumi](So, I put on the mask of a frail girl named 'Uika Misumi' and knocked on the shrine gate.)
+[Uika Misumi](To fulfill my passionate and loving plan...! I wanted to make everything about the pure miko mine...!)
+@cg:cg_ep4_uika_change
+[Uika Misumi](And this curse is due to my bloodline.)
+@cg:cg_traces_of_love1
+[Uika Misumi](I am the illegitimate child born between Ms. Sakiko's grandfather and another woman. Our blood was destined to mingle.)
+[Uika Misumi](Your 'exorcism' was the ultimate ritual to nurture this curse, our love, with the highest pleasure. Ah, Miko-sama, I love you...!)
+@cg:
+@bg:bg_honden_throne
+@char1:sakiko_wedding2
+[Story]In Tokoyo Shrine, there was no longer any place of purity.
+[Story]The floor of the main hall, once covered with purifying sand, is now coated with a hard layer that emits a milky-white, slimy sheen from the white, turbid liquid scattered over many years.
+[Story]The pillars, the walls, even the shoji screens, were stained with a mottled pattern of dried and layered, then dried and re-layered tides of arousal fluid, urine, and semen.
+[Story]The air is always filled with a sweet, thick scent, a mixture of iron, ripe fruit, and a suffocating smell of ammonia.
+[Story]This is a sacred precinct.
+[Story]And, a divine, copulating, altar.
+@cg:cg_ep5_1
+[Story]At the center of that altar, on a throne of obsidian, sat a giant red oni—the master of this shrine, Uika, in all her majesty.
+[Story]And in her strong arms, the woman who was once the miko of this shrine, Sakiko Toyokawa, was held limply.
+[Story]The individual existence known as Sakiko was no more.
+[Story]She had forgotten how to eat, how to breathe on her own will.
+[Story]The only thing keeping her alive was the thick semen of the god, ceaselessly poured into the two orifices of her body—the womb and the intestines—every day, every hour.
+[Story]Her sacred body as a miko had become a living organ, functioning solely to convert that divine essence into magical power to sustain life.
+@cg:cg_ep5_2
+[Sakiko Toyokawa]"Nn... uu... ah..."
+@cg:cg_ep5_3
+[Story]Meaningless, sweet breaths continuously leaked from Sakiko's mouth.
+@cg:cg_ep5_4
+[Story].
+@cg:cg_ep5_5
+[Story].
+@cg:cg_ep5_6
+[Story].
+@cg:cg_ep5_7
+[Story].
+@cg:cg_ep5_8
+[Story].
+@cg:cg_ep5_9
+[Story].
+@cg:cg_ep5_11
+[Story].
+@cg:cg_ep5_12
+[Story]She can no longer walk. The muscles in her legs have completely atrophied, merely hanging limply around Uika's waist.
+@cg:
+[Story]Her reason for existence is singular.
+[Story]To become the god's fleshlight, to become the holy grail.
+@cg:cg_bad_ending1
+[Story]Uika narrowed her golden eyes in satisfaction, looking down at Sakiko's body, where her own penis was deeply buried.
+[Story]Sakiko's lower body was no longer human.
+[Story]Her labia minora and majora were swollen beyond recognition, hanging down limply.
+[Story]The two secret orifices that should have been in the center, once tightly closed, were now always wide open.
+[Story]In particular, the devastation of the private parts leading to the womb was appalling.
+[Story]For a whole year, as a result of being continuously penetrated day and night by a huge, thorny penis, unimaginable for a normal person,
+[Story]that entrance had completely lost its function as a sphincter muscle.
+[Story]It was just a red, swollen ring of flesh, shamelessly exposing the even more gruesome and sacred sight on the other side.
+[Story]Deep within.
+[Story]Sakiko's cervix—the entrance to her womb, which had never before been seen by human eyes.
+[Story]Even that, as a result of being persistently pried open, gouged, and violated by the god's penis,
+[Story]was no longer just a hard protrusion. It was as if it were a soft, wet,
+[Story]another "lip," always half-open, twitching and convulsing.
+[Uika Misumi]"Sakiko"
+[Story]The god whispered lowly.
+[Uika Misumi]"Do you want my kiss?"
+[Sakiko Toyokawa]"Ah... uu... y-yes... Uika-sama's... I want to... lick... yours..."
+[Story]Sakiko's hollow eyes shone with a momentary light of joy.
+[Story]Uika slowly began to move the giant penis inside Sakiko's body.
+[Story]With a wet squelch, the penis pressed its giant, mushroom-cap-like glans against the "lips" of the cervix.
+[Sakiko Toyokawa]"Nn... nnn...!"
+[Story]Sakiko's wide-open cervix, like a starving baby, latched onto the glans.
+[Story]The soft mucous lips began to suckle the indented part of the glans, chupu, chupu, as if adoringly.
+[Story]It was, precisely, oral sex.
+@cg:cg_bad_ending2
+[Story]The womb itself becomes a mouth, serving and receiving the god's penis.
+[Uika Misumi]"Well done, Sakiko. The mouth of your womb pleases me more than any woman's mouth."
+[Sakiko Toyokawa]"Ah... ah...! I-I was praised...! Sakiko's little mouth... will make Uika-sama's dick... cleaner and cleaner...!"
+[Story]The god's words of praise were the ultimate aphrodisiac, further paralyzing Sakiko's broken reason.
+[Story]The mouth of her womb sucked the glans even more intensely, and the sharp thorns that grew thickly on its surface scraped and ground against the inner walls of the cervix.
+[Story]The pain and pleasure further pushed Sakiko's threshold for climax, which had long since had no limits.
+[Story]Pyu, and thick milk spurted from Sakiko's swollen breasts.
+[Story]At the same time, from her wide-open urethra, pisha-, an uncontrollable torrent of holy water gushed forth.
+[Sakiko Toyokawa]"Nn...! I-I wet myself... I wet myself again...! I'm s-sorry...!"
+[Uika Misumi]"It is fine. That, too, is kagura."
+[Story]Uika began to shake Sakiko's body even more violently, along with the leaked holy water.
+[Story]The oral sex by the mouth of the womb eventually turned into a violent copulation by the womb itself.
+[Story]Zupu, zupu, zupu, the thorns gouged and advanced through the wall of flesh.
+[Story]Sakiko's body was now just a quivering mass of flesh.
+[Story]And then, the god reached the moment of its climax.
+@cg:
+@bg:bg_honden_throne
+@char1:char_sakiko_vessel_empty
+@char1:
+@char2:
+[Story] .
+[Story] .
+[Story] .
+◇
+@cg:
+[Story]The flow of time was cut off from the human world.
+[Story]In that sacred precinct called Tokoyo Shrine, a year passed in the span of a god's breath. At the center of the main hall, where an ancient god was once enshrined, a giant red oni sat majestically on a throne of obsidian. Its body was filled with divine majesty, two horns piercing the heavens grew from its forehead, and its eyes shone like molten gold.
+[Story]This was the true form of the monster who once called herself Uika Misumi, the new god of this shrine.
+@cg:cg_ep5_love0
+[Story]And in the arms of that god, a woman was held.
+[Story]Sakiko Toyokawa. Once, the miko of this shrine.
+[Story]In this one year, her body had lost its human form and had transformed into a vessel solely for receiving the god's love. The slenderness of a girl was a phantom of the past, and now her ripe, fruit-like, full breasts and buttocks swayed heavily on the god's red skin. Her belly was greatly swollen, having become a sacred womb to bear the child of a new god.
+[Story]She is always pierced by the god's penis.
+[Story]Over the course of a year, "it," having grown even larger and more ferocious with countless thorns, filled the sacred chalice of Sakiko's womb, which had ripened to the point of being unable to exist without its shape, to its very root.
+[Story]The god takes a breath. The movement of its majestic chest slightly sways Sakiko's body in its arms.
+[Sakiko Toyokawa]"Nn... uu...!"
+[Story]That alone was enough. Inside her body, the thorny penis caressed the inner wall with a squelch. Sakiko's body twitched briefly in a short convulsion, and a single tear fell from her reasonless eyes.
+[Story]A wave of climax washes over her consciousness again.
+[Story]Pshu, and white, thick milk spurted from her taut breasts, wetting the god's red chest. At the same time, from the point of union, juwa, a hot tide overflowed, and along with the holy water from her loosened bladder, it dripped down to the foot of the throne.
+[Story]The god, in response, injects an even thicker white turbidity within her body.
+[Story]On the floor of the main hall, a milky-white pond had formed from the kagura that had been repeated ceaselessly for this one year, a pond that would no longer dry.
+[Uika Misumi](Ah, my Sakiko)
+@cg:cg_ep5_love1
+[Story]The god—Uika—looks down at the lovely miko, panting in the afterglow of climax in her arms.
+[Story]This past year, I have done nothing but love you. With my very being, I have continued to violate you. The result is this. The soul of the once noble and pure miko has melted in the heat of pleasure, and her body has received my love, conceived a child, and blossomed as a woman to the fullest extent possible.
+[Story]You can no longer even breathe without me. Your climax, your incontinence, your lactation, all of it is proof of your faith in me.
+[Story]How beautiful. How lovely.
+[Uika Misumi]Come, Sakiko. Today, too, wear my love as 'flesh armor' with joy. I will cover your full breasts and body with my love...!
+[Sakiko Toyokawa]...Yes... my god...! Please defile me more with your love and pleasure...! I offer you everything of this body, soaked in the ritual of love...!
+@char1:
+@char2:
+[Story]Semen into the holy grail of the womb, urine into the holy grail of the anus. The two transform into magical power, and Sakiko sips it from her mouth as 'divine wine' for Uika to drink. An infinitely amplifying, sacred cycle of love and pleasure.
+[Story]It was a living sheath that had memorized the shape of the god's penis. So much so that, if the god wished, it could easily peek at the soft, round cervix deep within.
+[Uika Misumi](Look, Sakiko. Your body is craving me this much)
+[Uika Misumi]"Sakiko...! Receive my divine essence with the throat of your womb...!"
+[Sakiko Toyokawa]"Yes... ee...! Uika-sama's milk... all of it, all of it, give it to Sakiko's little mouth... please...!"
+[Story]Burururu, the god's penis pulsed violently at the innermost depths of Sakiko's body.
+[Story]Doku, doku, doku, a white, hot, thick torrent of life was directly poured into the wide-open mouth of the womb.
+[Story]Sakiko's body, in order not to spill a single drop of that divine grace, received it using every function of her broken body.
+[Story]It was her nourishment. The source of her magical power.
+@cg:cg_ep5_love2
+[Story]After the god's ejaculation, however, the kagura was not yet over.
+[Story]Uika slowly pulled the penis, still twitching with the afterglow of white turbidity, from Sakiko's sopping wet little hole.
+[Story]And then, she turned its giant tip towards the other hole, which was just as shamelessly wide open right below it—the bud of the chrysanthemum.
+[Uika Misumi]"Next is here, Sakiko."
+[Sakiko Toyokawa]"Hii... ah...! My butt... my butt's little mouth... was waiting for Uika-sama's dick, too..."
+[Story]Zuburi, there was no resistance to be had.
+[Story]The giant penis, shining with semen and intestinal fluid, pushed deep into Sakiko's rectum.
+[Story]A different kind of pressure from the small hole, a feeling of being gouged from the inside of the stomach.
+[Story]The stimulation invited Sakiko's body to a fresh climax.
+[Sakiko Toyokawa]"Ah, ahhhh! My butt's going to break...! My tummy's getting full with Uika-sama's dick...!"
+[Story]And then, Uika, inside her, this time released something other than ejaculation.
+[Story]Jororororororo....
+[Story]A hot, liquid torrent.
+[Story]The god's urine.
+[Story]It, different from semen, accompanied by direct heat and the smell of ammonia, filled every corner of Sakiko's empty intestines.
+[Story]My stomach is hot. It's bloating. It's painful.
+@cg:
+[Story]But more than that, an absolute sense of happiness from being filled with the god's things.
+@cg:cg_chalice_kiss
+[Story]And so, Sakiko lives.
+[Story]Receiving the god's semen in her womb, she transforms it into magical power.
+[Story]Receiving the god's urine in her intestines, she purifies her own body with its heat.
+[Story]Two holy grails.
+[Story]One fleshlight.
+[Story]She is no longer Sakiko Toyokawa.
+[Story]A part of the god.
+[Story]A vessel of flesh, merely beautiful, that will forever adorn this sacred precinct of love and desire.
+[Story]And her vacant eyes, today as well, continue to dream a dream of supreme pleasure.
+@cg:
+[Story]More than a year passed in this way.
+[Story]Sakiko's body was no longer just a vessel. It had been transformed into a sacred instrument, perfectly tuned to receive the god's love.
+[Story]Her body, which once had to be led to climax by the violent movements of the god's penis. But now, she no longer even needed such "stimulation."
+[Story]Her body had learned.
+[Story]To surrender herself to the continuous waves of pleasure, simply from the fact that the god's penis existed within her.
+@cg:cg_traces_of_love
+[Story]Uika, on her throne, watched Sakiko in her arms with affection.
+[Story]Right now, she wasn't moving. Just letting the giant penis, finished with its ejaculation,
+[Story]rest deep within Sakiko's completely open and soaking wet little hole.
+[Story]But Sakiko's body was not still.
+[Sakiko Toyokawa]"Hii... uu... ah, n... uu..."
+[Story]A small, sweet panting.
+[Story]Her white belly, as if convulsing, was twitching and rippling ceaselessly.
+[Story]Her half-open eyes were unfocused, just staring into the void, and her white hands were weakly scratching at Uika's rock-hard chest.
+[Story]Bikun, and with a particularly large arch, Sakiko's body bent backwards.
+[Sakiko Toyokawa]"Ah... ahh...! I-I'm... I'm coming again...!"
+[Story]From her carelessly opened urethra, pyu, a forceful stream of clear arousal fluid shot out.
+[Story]It drew a parabola, wetting Uika's red skin and further darkening the milky-white stain on the floor.
+[Story]It wasn't that she moved her hips. Just by the penis being inside her, she would climax on her own.
+[Story]The copulation and training that had continued uninterrupted for over a year, 24 hours a day, had completely rewired her neural circuits.
+[Story]Climax was no longer a special moment.
+[Story]It was her daily life. Her very existence.
+[Sakiko Toyokawa]"Hah... hah... ah..."
+[Story]Even after one orgasm, the convulsions of Sakiko's body do not stop.
+[Story]Rather, the afterglow of the first climax becomes the trigger for the next.
+[Story]The wide-open cervix reflexively tightened around the huge glans of the penis inside her.
+[Story]That faint stimulation shot up her spine again.
+[Sakiko Toyokawa]"Hii...! N-no... it's... coming again...!"
+[Story]Bikun, bikun, Sakiko's body began to buck violently again.
+[Story]A second wave of arousal fluid gushed out, even more copious than the first.
+[Story]It's unstoppable.
+[Story]As long as the penis is inside her body, she can never escape the chain of climaxes.
+[Story]Like a broken doll. Just being tossed about by the waves of pleasure, continuing to gush arousal fluid.
+[Uika Misumi]"Hehe..."
+[Story]Uika laughed softly.
+[Uika Misumi]"How lovely, Sakiko. My miko."
+[Story]That voice was filled with the absolute superiority of a victor.
+[Uika Misumi]"You have become a body that would drown in pleasure without me."
+[Uika Misumi]"The dreams you see, the joy you feel, all of it is mine."
+[Story]Sakiko in her arms can no longer even respond to those words.
+[Story]Just panting, gushing, and convulsing in the endless hell, or perhaps heaven, of climax.
+[Story]The god looked down at its perfect creation with satisfaction.
+[Story]This beautiful doll, eternally breaking, was the greatest proof of its love.
+[Story]But the god's whim does not allow for silence.
+[Uika Misumi]"Shall we take a little walk?"
+[Story]Uika muttered so and slowly stood up from the throne.
+[Story]At that movement, Sakiko's body swayed greatly.
+[Sakiko Toyokawa]"Higya...!?"
+[Story]Until now, Sakiko's body had been barely holding on to a series of weak climaxes because of the stillness. But for the god's huge body to move means...
+[Story]That giant penis, which had become an immovable pillar within her body, was starting to move.
+[Story]Zuburi, and every time Uika took a step, the penis deeply gouged and thrust up against the walls of Sakiko's womb, which now felt nothing but pleasure.
+[Sakiko Toyokawa]"Ah, ah, ahhhhh! M-m-moving... s-stop...! I-it's going to break...!"
+[Story]Sakiko's plea, which was almost a scream.
+[Story]But to the god's ears, it sounded like the most beautiful hymn.
+@char1:
+@char2:
+[Uika Misumi]Ah, my lovely miko-sama.
+[Uika Misumi]You, to save this lost child named love that is me,
+[Uika Misumi]offered your holy water, holy liquid, lips, breasts, and your most sacred womb with joy.
+[Uika Misumi]All of you has been filled with my love and pleasure...!
+[Uika Misumi]Your divine power, far from 'exorcising demons,' became the supreme nourishment that nurtured my love.
+[Uika Misumi]Behold, now, you are completely mine. The ultimate vessel of love, where the purity of a miko and the lust of a female have merged...!
+[Sakiko Toyokawa]...Nn... uu... Uika-sama.... My god.... It's morning... I was drowning in the pleasure of love all night....
+[Sakiko Toyokawa]...The morning 'kagura'...! Please, grant it to me gently, thickly, with love...! I can't live without your penis anymore...!
+[Uika Misumi]...Yes, Sakiko. My lovely miko...! Come, let us continue the ritual of love...!
+@cg:
+[save]——————————————————————————————————————————————————————————————————————
+@cg:cg_traces_of_love0
+[Story]On a sunny afternoon, Uika, with Sakiko still impaled on her penis, lightly picked her up and strolled through the shrine grounds.
+[Story]Every time Uika took a step.
+[Sakiko Toyokawa]"Hii... ah... nnh...!"
+[Story]Sakiko's body was greatly shaken, and the penis inside her mercilessly gouged her defenseless inner walls, gupuri, gupuri.
+[Story]Picha, picha, and from her two slackened holes, liquid dripped ceaselessly.
+[Story]Warm urine from her bladder. Sweet arousal fluid from her womb. They drew a wet trail of love in dots along the path the god walked.
+[Story]She no longer had the will or the function to hold it in. Her body just reacted to the passive stimulation given to it.
+[Sakiko Toyokawa]"No...! No! Just walking makes me come again...! The inside of my stomach... is being ground by Uika-sama's dick... ahhhh!"
+[Story]In her arms, Sakiko's body arched like a white fish and climaxed. Milk spurted from her breasts, and urine and arousal fluid gushed from her two holes.
+[Story]It was no longer even a kagura dance.
+[Story]Just a whimsical walk of a god. With just that vibration, the former miko, like a broken toy, just scattered a liquid of pleasure.
+[Uika Misumi](Ah, are you crying, Sakiko? Did you still have some shame left?)
+[Story]Uika licked her wet cheek with her tongue.
+[Story]The salty taste of those tears was the last proof that she was once human. How lovely. I will completely paint over even that last fragment with this love of mine.
+[Story]Uika laughed.
+[Story]It was the smile of a god, full of compassion.
+@cg:cg_traces_of_love
+@char1:
+@char2:
+[Story]The love juices of the two moistened every corner of the sacred precinct, causing rainbow-colored moss and pure white flowers to bloom. The shrine itself became a testament to their love.
+@cg:cg_ending_eternalmyth
+@char1:
+@char2:
+[Story]Eventually, Sakiko completely became a part of the god. Her body, a flower of love that blooms eternally on the god's chest, never to wither. The myth of the two will continue from here, forever.
+[Story]End of script
+@cg:
+[save]Saving......
+[save]——————————————————————————————————————————————————————
+@bgm:ending
+[Story]......
+@cg:ending1
+[Story]...
+@cg:ending2
+[Story]......
+@cg:ending3
+[Story]...
+[Story].......
+@cg:ending4
+[Story]Following the silver thread
+[Story]I reeled in my feelings
+[Story]If I embrace the pregnant moon at its end
+[Story]I'll be waiting
+@cg:ending5
+[Story]For the night to fall from the sun
+[Story]Hey, fulfill me at that end
+[Story]I feel like I can reach it
+@cg:ending6
+[Story]Dancing while still entangled
+[Story]Georgette me georgette you, spinning
+@cg:ending7
+[Story]Look, the more it hurts
+[Story]While wearing a sparkling dress
+[Story]Everlastin' ever
+[Story]Darlin' ever ever
+[Story]Tighten it again
+@cg:ending8
+[Story]Everlastin' ever
+[Story]So we'll never be apart ever ever ever
+[Story]What is it that binds us?
+[Story]It's someone's distant prayer
+[Story]Ah, I knew from the very beginning
+@cg:ending9
+[Story]Something unforgivable
+[Story]Dancing without being able to love
+[Story]Georgette me georgette you is that true?
+[Story]You touched it, this wound
+[Story]Dancing while still entangled
+[Story]Georgette me georgette you, spinning
+[Story]Let me stay like this, just like this
+[Story]Dancing without being able to love
+[Story]Georgette me georgette you is that true?
+@cg:ending10
+[Story]Pain is light
+[Story]While wearing a sparkling dress
+[Story]Everlastin' ever
+[Story]Darlin' ever ever
+[Story]Tighten it again
+[Story]Everlastin' ever
+[Story]So we'll never be apart ever ever ever
+[Story]........................
+[Story]..................
+[Story]............
+[Story]......
+[Story]...
+@cg:
+[save]SAVING
+@bg:bg_tokyo_room
+[save]SAVING——————————————————————————————————————————————————————
+@bgm:M226
+[Story]Epilogue:......
+[Story]Epilogue:...
+[Story]Epilogue:.
+[Story]Wakeup
+[Story]Wakeup...
+[story]Shrine Secret Chronicle: Final Chapter - The Dream the Monster Saw (Epilogue)
+[story]It felt as if consciousness were slowly surfacing from lukewarm water.
+[story]In the fog of thought that was not yet fully awake, the first thing Uika Misumi felt was a strangely pleasant numbness and a lukewarm wetness coming from her lower abdomen.
+[story]Something was there. Something soft, eager, yet slightly hesitant, was gently but persistently teasing her most defenseless part.
+[story]The morning light filtering through the lace curtains was still white and indistinct.
+[story]The air in the room was cool and clear, yet only her lower body was radiating a simmering heat, as if she were holding a small sun.
+[story]And at the center of that heat, there was a continuous, regular movement.
+[story]Chupu, chupu, the faint sound of wetness.
+[story]The tip of her penis, the sensitive glans, was being repeatedly rubbed and sucked by something wet and smooth.
+[story]Each time, a thrill of pleasure ran up her spine, and her body, which should have still been deep in sleep, would jolt and twitch involuntarily.
+[story](...What is this... it feels so good...)
+[story]Finding it too much trouble to even pry open her heavy eyelids, Uika surrendered herself to the unidentified pleasure.
+[story]Her pajama sweatpants had been pulled down to her knees at some point.
+[story]Her exposed penis was hard, hot, and taut, to a degree that couldn't be explained by a morning physiological phenomenon alone.
+[story]It throbbed like a living creature, and from its tip, a clear nectar, oozing from the unbearable pleasure, was constantly overflowing.
+[Story]Someone was carefully licking up that nectar with their tongue.
+[story]The moment she realized this, Uika's consciousness rapidly awakened.
+[story]Her heart pounded loudly, dokun.
+[story]Slowly, very slowly, she lifted her heavy eyelids.
+[story]Her vision gradually came into focus from the blurred light.
+[story]And then, she saw it. Spread out on the sheets, a beautiful blue, as if it had melted moonlight.
+[story]It was the hair color of the lovely girl who should have been sleeping next to her.
+[story]Sakiko Toyokawa was there. Kneeling between Uika's legs, with the comforter pulled up to her chest, she was earnestly taking Uika's penis into her small mouth.
+@cg:cg_mujica_weakup1
+[story]Her glossy blue hair flowed like silk over my stomach, swaying gracefully with her movements.
+[story]Her white cheeks were slightly flushed, and I could see her long, lowered eyelashes trembling faintly.
+[story]With each regular up-and-down movement of Sakiko's small chin, my penis was guided deep into her warm, moist oral cavity, and then slowly withdrawn.
+[Uika Misumi]...Saki...ko...? What are you doing...?
+[story]I intended to speak, but what escaped my throat was only a raspy sound, almost a sigh. At that faint sound, Sakiko's shoulders trembled with a start.
+[story]Slowly, Sakiko raised her face. With Uika's penis still in her mouth, her moist, deep-colored eyes looked up at Uika from below.
+[Story]In those eyes, a complex mixture of shame, like a child caught in mischief, deep affection for a loved one, and an uncontrollable color of desire swirled.
+@cg:cg_mujica_weakup2
+[story]Sakiko's cherry-colored lips, wet with Uika's nectar and her own saliva, shone lustrously. From the corner of her lips, a single transparent thread connected to the tip of Uika's penis.
+[Sakiko Toyokawa]"...Nn... good morning, my dear Uika. Hehe, did I wake you up?"
+[Sakiko Toyokawa]"Or did you wake up because it felt too good? My mouth's movements... were they that good...?"
+[Sakiko Toyokawa]"Just looking at your wonderful thing... I couldn't resist."
+[story]Her voice, speaking with my penis in her mouth, was muffled, sweet, and sounded as if it were melting. It was as if she were asking for permission to continue.
+@cg:cg_mujica_weakup3
+[story]Uika couldn't reply. She couldn't believe the sight before her, just gasped.
+[story]The fact that Sakiko's white cheeks were slightly pushed out from the inside by the hardness of her own erect genitals brought Uika an excitement that could burn out her brain.
+[Sakiko Toyokawa]"Hehe... being quiet means... I can continue, right? This... sparkling in the morning sun, Uika's cute penis..."
+[Sakiko Toyokawa]"It's a reward for making me feel so good last night."
+[Sakiko Toyokawa]"This morning, I'll melt you down to the very marrow... so be prepared, okay?"
+[story]Sakiko, perhaps taking Uika's silence as consent. Giggling softly with just her breath, she buried her face in Uika's crotch again.
+[story]This time, much bolder than before.
+[Sakiko Toyokawa]"Nmu... chupu... juru..."
+@cg:cg_mujica_weakup4
+[story]Sakiko's tongue skillfully entwined with Uika's penis. She persistently traced the sensitive ridge on the underside of the glans with the tip of her tongue and slowly licked the shaft from base to tip.
+[story]Even the testicles were gently enveloped by her eager tongue, caressed as if being rolled.
+[Uika Misumi]"Ah...! Sa-kiko, no... not there...! Nn, uu...! How... where did you learn to use your tongue like that...!"
+[Uika Misumi]"I'm... going to lose my mind...! Sakiko, I love you...!"
+[story]The protest turned into a sweet moan. Her body arched, and her hands, clutching the sheets, tightened.
+@cg:cg_mujica_weakup5
+[story]Sakiko, as if enjoying Uika's reaction, intensified her movements.
+[story]She opened her small mouth to its limit, trying to welcome the hard, hot thing deeper and deeper. Occasionally, she would let out a pained "ngu" when it hit the back of her throat, but she never tried to stop.
+[Sakiko Toyokawa]"Nn... ngu... Uika's... this... when I saw it this morning, it was so hard.... Pink, and shiny... it was really, so cute..."
+[Sakiko Toyokawa]"I just couldn't help myself.... I wonder what Uika's semen tastes like.... It must be sweeter than honey... and delicious...."
+[Sakiko Toyokawa]"...Hey, hurry up and fill my throat with your love..."
+[story]She spins her words, fragmented, like excuses, yet inflammatory. Those words were the final trigger.
+@cg:cg_mujica_weakup6
+[story]Cute? This thing, filled with beastly heat and hardness, that's filling your mouth?
+[story]That gap drove Uika unbearably wild.
+[Uika Misumi]"Sakiko... that's enough... I'm going to... come...! Inside your... cute little mouth... I'm going to shoot all my love...!"
+[Uika Misumi]"You better take it all...!"
+@cg:cg_mujica_weakup6
+[story]Although I warned her, Sakiko just shook her head. Not only that, but as if straddling me and riding me herself, she began to suck my penis even deeper and more intensely.
+[story]It was the limit. From the bottom of Uika's stomach, a scorching mass surged up.
+[Uika Misumi]Sakiko...! Ah, no more, I can't...! Open your mouth... drink it all...! All of me...!
+[story]A cry that was both a command and a plea. Sakiko, as if obeying, nodded, and at the last moment, firmly grasped the base of Uika's penis with both hands.
+@cg:cg_mujica_weakup7
+[story]Her vision exploded in a flash of white. Uika's hips convulsed greatly, and hot semen was poured into the back of Sakiko's throat like a torrent.
+[story]"...Ah, ah, ahhhh...!" A hot torrent, like a dam breaking.
+[story]Uika's body convulsed violently, over and over again. Each time, a tremendous amount of white, turbid semen was slammed into Sakiko's mouth, deep into her small throat.
+[story]Sakiko closes her eyes tightly, trying to receive it all. Koku, koku, Sakiko's throat desperately repeats the swallowing motion.
+@cg:cg_mujica_weakup8
+[story]While most of it certainly went down into Sakiko's stomach, the part that couldn't be processed spilled from the corner of her cherry-colored lips with a wet sound, and trickled down her white chin.
+[story]Even so, Sakiko never let go of Uika's penis from her mouth. Waiting for the last of the white turbidity to be expelled and for the convulsions in Uika's hips to finally subside, Sakiko slowly raised her face.
+[Sakiko Toyokawa]...Nn... hehe.... It's very thick... and delicious, Uika.... This is the taste of your love... isn't it....
+[Sakiko Toyokawa]My body feels hot from the core....
+[story]Sakiko gently wiped the semen that had trickled down her chin with her slender fingertips, then licked her fingers without hesitation and swallowed as if savoring it.
+@cg:cg_mujica_weakup9
+[story]Uika watched the scene, breathless. Her body was languid after the storm of pleasure had passed, and she couldn't seem to move a single finger.
+[Uika Misumi]Hah... hah... Saki-ko... sorry... I made a mess.... But it felt so good....
+[Uika Misumi]I'm happy... that you drank all of me....
+[Sakiko Toyokawa]No. This is something precious you gave me. Hehe... but... it's still so hard.
+@cg:cg_mujica_weakup10
+[Sakiko Toyokawa]Uika.... Was once not enough? ...I will clean you up, not leaving a single drop.
+[Sakiko Toyokawa]My Uika, I won't give you to anyone else.
+[story]Despite having just ejaculated, Uika's penis had not yet completely softened.
+[story]Sakiko smiled sweetly, yet with an undeniable strength, and opened her small mouth again.
+[story]This time, to squeeze out the very last drop from within Uika.
+[story]Sakiko, deeper than before, with a breathtaking force, swallowed Uika's penis all the way to the root in one go.
+[Uika Misumi]Nguu...!? Sakiko, wait...!
+@cg:cg_mujica_weakup22
+[story]The unexpected depth and pressure made Uika gasp. Sakiko's lips were so deep they touched the base of her pubic hair.
+[story]And, a soft, yet strong throat wall, the likes of which she had never felt before, squeezed her glans tightly.
+[story]Sakiko began to skillfully contract her throat, like a vacuum pump. Expelling the air from her mouth, she used only her throat muscles to rhythmically squeeze the glans, the urethral opening, gu, gu.
+[Uika Misumi]Ah, ah...! Wait, Sakiko, there, is...! Nn, no, stop...!
+[Uika Misumi]No, no, no...! I'm going to come again, I'm really going to come...! Aaaah! Sakiko, you're so mean...!
+@cg:cg_mujica_weakup23
+[story]It was an irresistible extraction of pleasure. From a place that should have been almost empty after the first ejaculation, a new heat was forcibly dragged out.
+[story]The moment Sakiko's throat contracted to its absolute limit.
+@cg:cg_mujica_weakup24
+[Uika Misumi]"Aaaaaaaaaaaaaaaaa-"
+@cg:cg_mujica_weakup25
+[story]With a beast-like scream, a second scorching heat, thicker and more viscous than the first, was poured directly into the back of Sakiko's throat.
+[story]After her second ejaculation, Uika was completely unconscious.
+@cg:cg_mujica_weakup26
+@cg:cg_mujica_weakup27
+@cg:cg_mujica_weakup28
+@cg:cg_mujica_weakup29
+[story]Sakiko reluctantly released Uika's completely flaccid and soft penis from her lips.
+@cg:cg_mujica_weakup30
+[Sakiko Toyokawa]...Hehe. Now you're really clean, Uika. I loved you until you were empty.
+[story]Sakiko's face, as she said that with a satisfied smile, was ecstatic and incredibly beautiful.
+@cg:cg_mujica_weakup46
+[story]She carefully licked away the faint traces of semen scattered on Uika's lower abdomen, then once again respectfully kissed the still-hard penis.
+[Sakiko Toyokawa]Nmu... Uika.... Today's band practice time was changed... what's wrong, being so aggressive since morning...?
+[Sakiko Toyokawa]But... I love even that intense side of you, Uika... all of it.... My one and only Oblivionis....
+[story]At Sakiko's words, Uika snapped back to her senses. Right, the practice time.
+[story]She had almost forgotten even that in the pleasure before her.
+@cg:
+[Uika Misumi]"U-um... I had a dream.... I was a warrior cursed by an oni... and you, Sakiko, were the miko who would break the curse..."
+[Uika Misumi]"In the dream... I... did some terrible things to you, Sakiko... I'm sorry..."
+[story]My face felt like it was on fire with shame. In the dream, I had made Sakiko cry, brought her to climax countless times, and ravaged her sacred body with my desires.
+[story]The remnants of that still smoldered in my body, even now that I was awake.
+[Sakiko Toyokawa]"...Nn... Uika must be tired. It was just a dream."
+[Sakiko Toyokawa]"Besides... even if it was in a dream, if I were to be messed up like that by you, Uika... I would be happy..."
+@cg:cg_mujica_weakup64
+[Sakiko Toyokawa]"No, rather, it might be a reward. ...So, please don't worry about it. Just forget everything."
+[Sakiko Toyokawa]"The real me is more pleasant than the dream, isn't she...?"
+@cg:
+[story]Those words, like a mantra to break a curse, seeped deep into Uika's heart.
+[story]With that one phrase, Sakiko had affirmed and swallowed both the guilt from the dream and the shame in reality.
+[story]A single tear fell from Uika's eye. It was a tear of relief, and of an overwhelming love for Sakiko.
+[story]To be continued……
+[story]To be continued…
+[Story]To be continued？
+[story]Thank you for watching
